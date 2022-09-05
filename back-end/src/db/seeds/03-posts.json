@@ -1,0 +1,16 @@
+[
+    {
+        "user_id": 1,
+        "title": "test post 1",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
+        "post_date": "2022-08-11",
+        "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+    },
+    {
+        "user_id": 2,
+        "title": "test post 2",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
+        "post_date": "2022-08-12",
+        "video_url": "https://youtu.be/WKHvreQf-D0"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "gys_webpage_backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx concurrently \"npm run start:dev --prefix ./back-end\" \"npm start --prefix ./front-end\" ",
+    "build": "npm -prefix front-end run build",
+    "install": "npx concurrently \"npm install --prefix ./back-end\" \"npm install --prefix ./front-end\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
