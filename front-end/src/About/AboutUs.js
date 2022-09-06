@@ -33,7 +33,7 @@ export default function AboutUs({prompts = [] }) {
 
 
   const team = [...contacts] || [];
-  let headshots = [require("../assets/img/andria-about-headshot.jpg"), require("../assets/img/jacqui-about-headshot.jpg")]
+  let headshots = [require("../assets/img/jacqui-about-headshot.jpg"), require("../assets/img/andria-about-headshot.jpg"), ]
 
   // store prompts for header & values sections
   const values = [
@@ -45,20 +45,20 @@ export default function AboutUs({prompts = [] }) {
     },
     {
       id: 2,
-      title: "Relentlessness",
-      subtitle: "Relentlessness subtitle",
+      title: "Hope",
+      subtitle: "Hope subtitle",
       link: "#",
     },
     {
       id: 3,
-      title: "Determination",
-      subtitle: "Determination subtitle",
+      title: "Compassion",
+      subtitle: "Compassion subtitle",
       link: "#",
     },
     {
       id: 4,
-      title: "Compassion",
-      subtitle: "Compassion subtitle",
+      title: "Community",
+      subtitle: "Community subtitle",
       link: "#",
     },
   ];

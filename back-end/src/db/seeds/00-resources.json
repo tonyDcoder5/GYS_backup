@@ -1,7 +1,16 @@
 [
 	{
-		"name": "test resource 1",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. ",
-        "url":"https://docs.google.com/document/d/1eoWdME3KAClw2CptXYP7AZFrUJCTjbiV-tPnoUO4-Gc/edit?usp=sharing"
+		"resource_title": "We Got Your Back Postcard",
+		"resource_subtext": "shareable-postcard",
+		"resource_description": "Shareable postcard to share with family and friends",
+        "resource_url":"https://drive.google.com/file/d/10IL-8VEkQ5vT6LZnx424Vi_2sZp7f0BZ/view?usp=sharing",
+		"resource_media":"../assets/img/gys-postcard.png"
+	},
+	{
+		"resource_title": "test resource 1",
+		"resource_subtext": "test-resource-1",
+		"resource_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. ",
+        "resource_url":"https://docs.google.com/document/d/1eoWdME3KAClw2CptXYP7AZFrUJCTjbiV-tPnoUO4-Gc/edit?usp=sharing",
+		"resource_media": ""
 	}
 ]

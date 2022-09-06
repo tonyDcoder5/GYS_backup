@@ -14,8 +14,8 @@ export default function LocalSupport({ contacts = [] }) {
 
   let logos = [
     require("../assets/img/logos/local-contacts/HD_Counseling_Logo.png"),
-    require("../assets/img/logos/local-contacts/camaraderiefoundation-logo.png"),
     require("../assets/img/GYS_logo.jpg"),
+    require("../assets/img/logos/local-contacts/camaraderiefoundation-logo.png"),
   ];
 
   const initialCard = {
@@ -36,6 +36,8 @@ export default function LocalSupport({ contacts = [] }) {
 
   return (
     <div className="local-support-block">
+    {/* Change to side by side cards listing all local hotlines & support resources available */}
+      
       <section className="local-hotlines">
         <h3>Local Support Hotlines</h3>
         <StarBanner />
@@ -89,6 +91,7 @@ export default function LocalSupport({ contacts = [] }) {
           </div>
           <div className="contact-select">
             <div className="contact-group">
+              
               {localCounseling.map((contact, idx) => (
                 <div
                   onClick={() => clickHandle(contact)}

@@ -1,16 +1,81 @@
 [
     {
         "user_id": 1,
-        "title": "test post 1",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
+        "post_title": "test post 1",
+        "post_subtitle": "test subtitle",
+        "post_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
+        "post_author": "Test author",
+        "post_subtext": "test subtext",
         "post_date": "2022-08-11",
-        "image_url": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+        "post_image": "https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
     },
     {
         "user_id": 2,
-        "title": "test post 2",
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
-        "post_date": "2022-08-12",
-        "video_url": "https://youtu.be/WKHvreQf-D0"
+        "post_title": "test post 2",
+        "post_subtitle": "test subtitle",
+        "post_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie.",
+        "post_author": "Test author",
+        "post_subtext": "test subtext",
+        "post_date": "2022-08-11",
+        "post_video": "https://youtu.be/WKHvreQf-D0"
+    },
+    {
+        "post_title": "What is the origin of Golf Yankee Six?",
+        "post_author": "GYS",
+        "post_subtitle": "FAQ sample subtitle -1",
+        "post_text": "As owners and mental health therapists, we have each worked in the Orlando area for almost 20 years. We see the soldiers returning home. We work with their families. We work with Veterans both with and without PTSD.  We see the need for longterm counseling for our Veterans. No matter what, every Veteran has a story. One day, we were talking about how we wished there was more awareness of Mental Health for our Veterans. We knew there was a desperate need for counseling services for these men and women Veterans. We wanted to teach others how to sit with a Veteran so they can share their story. We wished there were more clinicians like us and how we need to expand our own team to help more Veterans. Just the two of us was not enough. In our practice, we saw the need for mental health services and the lack of services available for these men and women. Just doing outpatient counseling was not enough to meet the needs of many of these Veterans. We thought, we can do more, we have to do more. These men and women laid their lives on the line and we tell them to wait 3-6 months to see a counselor to start to unpack the most horrific memories? No, that is not acceptable. We have to do more. We need a bigger team. We are leveraging our education and experience to help our team know what to say and where to send Veterans for help when presented with the opportunity; to help equip our Veterans with the tools they need to face their battles at home. The war may have ended, but their healing has just begun.",
+        "post_subtext": "faq-post-1",
+        "post_date": "2022-08-28",
+        "post_url": "#",
+        "post_image": "../assets/img/GYS_logo.jpg",
+        "post_video": ""
+    },
+    {
+        "post_title": "Where did the name Golf Yankee Six come from?",
+        "post_author": "GYS",
+        "post_subtitle": "FAQ sample subtitle -2",
+        "post_text": "As the daughter of a Veteran, I was talking with my Dad about his experiences in the military. He was sharing a story about his time during the Vietnam War, a story I had never heard before. Afterward, all I could think about was how every Veteran has hundreds of stories like the ones I was hearing, and for some, they will never share their stories. My training tells me that this is a personal choice and that every Veteran will have a different experience. Some may choose to stand up to be recognized as a Veteran at the baseball game and for some, they will never stand. This is their choice and both are honorable. I am glad they are home. I want to honor you. Period. \nI want Veterans to see that I and we as a community have your back. I brought the idea back to my Dad.  He said, 'Golf Yankee Six'. He continued, 'Got your back'. And the rest is history.",
+        "post_subtext": "faq-post-2",
+        "post_date": "2022-08-28",
+        "post_url": "#",
+        "post_image": "../assets/img/GYS_logo.jpg",
+        "post_video": ""
+        
+    },
+    {
+        "post_title": "How is Golf Yankee Six different?",
+        "post_author": "GYS",
+        "post_subtitle": "FAQ sample subtitle -3",
+        "post_text": "Florida is home to one of the largest concentrations of active duty service members, including 1.6 million Veterans. I spent the past 20 years creating relationships with local businesses such as restaurants, breweries, universities, etc. in Central Florida who want to help our Veterans, but don’t know how. We have existing and established counseling centers that need funding to provide these life saving mental health services to our Veterans. We have met the needs of our community in our other roles as therapists, professor, community health agency director, etc., but we want to do more. \nWe want Veterans to see the size of our team when they look around the room and see Golf Yankee Six shirts. We want them to see shirts in the grocery store, the little league field, and where they receive mental health services. You are not only purchasing a shirt, you will also receive tips about what to say, what not not say, local resources for Veterans, and a website for Veterans in need.",
+        "post_subtext": "faq-post-3",
+        "post_date": "2022-08-28",
+        "post_url": "#",
+        "post_image": "../assets/img/GYS_logo.jpg",
+        "post_video": ""
+        
+    },
+    {
+        "post_title": "Who makes your shirts?",
+        "post_author": "GYS",
+        "post_subtitle": "FAQ sample subtitle -4",
+        "post_text": "We only use 100% American made/manufactured/designed products with US cotton. Other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee - at https://usabayside.com/. Our shirts are printed by Breaking Free Industries https://breakingfreeindustries.com/ in California. \nOnly  3% of garments in the United States are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we.",
+        "post_subtext": "faq-post-4",
+        "post_date": "2022-08-28",
+        "post_url": "#",
+        "post_image": "../assets/img/GYS_logo.jpg",
+        "post_video": ""
+    
+    },
+    {
+        "post_title": "How can you support Golf Yankee Six?",
+        "post_author": "GYS",
+        "post_subtitle": "FAQ sample subtitle -4",
+        "post_text": "GYS wants to help veterans know our mission begins when theirs' ends. With every shirt or product purchase, you can help raise awareness of Veterans mental health while empowering our local community to be armed with the knowledge, compassion, and courage to complete our mission, to save veteran lives. \nBy these purchases on our website or at our local pop-ups, you can help us invest directly into mental health services for our veterans.",
+        "post_subtext": "faq-post-4",
+        "post_date": "2022-08-28",
+        "post_url": "#",
+        "post_image": "../assets/img/GYS_logo.jpg",
+        "post_video": ""
+    
     }
 ]

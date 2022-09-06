@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import StarBanner from "../components/StarBanner";
-import ShopHeader from "../Shop/ShopHeader";
+import ShopBanner from "../Shop/ShopBanner";
 
 export default function Mission({ prompts }) {
   const flag = require("../assets/img/flag-gif.gif");
@@ -32,7 +32,7 @@ export default function Mission({ prompts }) {
           <p>{missionContent?.section_text || null}</p>
         </section>
       </div>
-      <ShopHeader />
+      <ShopBanner />
 
       <div className="mission-stats">
           <StarBanner />

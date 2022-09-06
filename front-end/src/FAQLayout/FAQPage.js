@@ -102,8 +102,7 @@ export default function FAQPage() {
                   <h3>{faq.post_title}</h3>
                 </Accordion.Header>
                 <Accordion.Body>
-                  <p>{faq.post_subtitle}</p>
-                  <p>{faq.post_date}</p>
+                  <p>{faq.post_text}</p>
                 </Accordion.Body>
               </Accordion.Item>
             ))}

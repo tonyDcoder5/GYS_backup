@@ -914,7 +914,7 @@ nav.navbar.scrolled .nav-links {
 
 .urgent-resources h3 {
   margin: 0.5em 0 .5em 0;
-  font-size: 5vmin;
+  font-size: 15vmax;
 }
 
 .urgent-resources .star-banner{
@@ -1313,11 +1313,21 @@ nav.navbar.scrolled .nav-links {
   box-shadow: 0em 0em 1em #071013;
 }
 
-.faqs-bx h4 {
-  font-size: 4.5vmin;
+.faqs h2 {
+  font-size: 6vmax;
   margin: 0.25em 0 1em 0;
 }
 
+
+.faqs .star-banner {
+  padding: 1em;
+}
+
+.faqs .star-banner span{
+  transform: scale(1.5);
+}
+
+/* 
 .top-faqs {
   display: flex;
   flex-direction: column;
@@ -1342,13 +1352,6 @@ nav.navbar.scrolled .nav-links {
   color: #071013;
 }
 
-.faqs-bx .star-banner {
-  padding: 1em;
-}
-
-.faqs-bx .star-banner span{
-  transform: scale(1.5);
-}
 
 .top-faq * {
   text-align: center;
@@ -1380,7 +1383,7 @@ nav.navbar.scrolled .nav-links {
 
 .top-faq sub {
   border-top: 0.25em dotted #036;
-}
+} */
 
 .recent-faqs {
   background-color: #cecece;
@@ -1389,11 +1392,8 @@ nav.navbar.scrolled .nav-links {
   padding: 1em;
   border-radius: 0.5em;
   box-shadow: 0 0 0.5em #f1edee;
-  overflow-y: scroll;
-  height: 55vmin;
+  overflow: auto; 
 }
-
-
 
 .recent-faqs::-webkit-scrollbar {
   width: 0.75em;
@@ -1441,6 +1441,7 @@ nav.navbar.scrolled .nav-links {
 
 .accordion-flush .accordion-item * {
   line-height: 2em;
+  font-size: 4.5vmax;
 }
 
 .accordion-flush .accordion-item .accordion-header{
@@ -1459,7 +1460,12 @@ nav.navbar.scrolled .nav-links {
   border-radius: 5em;
 }
 .accordion-flush .accordion-item .accordion-body {
-  border-top: 0.25em dotted #036;
+  border-top: 0.5em dotted #C42021;
+  
+}
+
+.accordion-flush .accordion-item .accordion-body p{
+  font-size: 4vmax;
 }
 
 .recent-faq * {
@@ -1797,6 +1803,64 @@ nav.navbar.scrolled .nav-links {
 }
 
 /* SHOP PAGE LAYOUT */
+.shop-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cecece;
+  color: #071013;
+  text-align: center;
+  padding: 2em;
+  margin: 1em;
+  width: auto;
+  border-radius: 2em;
+  box-shadow: 0em 0em 1em #071013;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.shop-banner h3 {
+  font-size: 5vmin;
+}
+
+.shop-banner-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  background-color: #036;
+  color: #f1edee;
+  margin-top: 0.5em;
+  width: auto;
+  text-align: center;
+  border-radius: .5em;
+  box-shadow: 0 0 0.25em #071013;
+}
+
+.shop-banner-content div{
+  margin: 1em 1em 1em 1em;
+}
+
+.shop-banner-content button{
+  color: #f1edee;
+  background-color: #5d737d;
+  font-size: 3vmax;
+  border: .25em solid #f1edee;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em 0 .5em 0;
+}
+
+.shop-banner-content p{
+  font-size: 2vmax;
+}
+
+.shop-banner img{
+  width: 30vmax;
+}
+
 .shop-header {
   display: flex;
   flex-direction: column;
@@ -1881,7 +1945,7 @@ nav.navbar.scrolled .nav-links {
 
 .shop-bx h2{
   margin-top: 1em;
-  font-size: 4vmax;
+  font-size: 8vmax;
   width: 80%;
 }
 
@@ -1902,14 +1966,10 @@ nav.navbar.scrolled .nav-links {
   justify-content: space-around;
   align-items: center;
   width: auto;
-  padding: 3em;
   margin: 2em 1em 2em 1em;
   line-height: 2em;
   text-align: center;
-  border-radius: 2em;
-  background-color: #f1edee;
   color: #071013;
-  box-shadow: 0 0 0.5em #071013;
 }
 
 .shop-row img {
@@ -1917,6 +1977,15 @@ nav.navbar.scrolled .nav-links {
   width: fit-content;
   margin: 1em;
   width: 40vmax;
+}
+
+.supplier-logos{
+  display: flex;
+  flex-direction: column;
+}
+
+.supplier-logos img{
+  width: 50vmax;
 }
 
 .shop-text h4{
@@ -1957,96 +2026,60 @@ nav.navbar.scrolled .nav-links {
 .shirt-block {
   display: flex;
   flex-direction: column;
-  margin: 1em;
+  background-color: #cecece;
+  color: #071013;
   padding: 2em;
+  margin: 1em 1em 2em 1em;
+  border-radius: 0em;
+  box-shadow: 0em 0em 0.5em #f1edee;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #cecece;
-  border-radius: 1em;
-  color: #071013;
-  box-shadow: 0 0 1em #071013;
+  border-radius: .5em;
+  overflow: auto;
 }
 
 .shirt-block h2{
-  font-size: 4vmax;
+  font-size: 8vmax;
 }
 
-.shirt-block div {
-  display: flex;
-  align-items: center;
-  width: auto;
-}
 
 .shirt-content {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-self: center;
-  margin: 1em;
-  padding: 1em;
-  width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5em;
   background-color: #f1edee;
-  box-shadow: 0 0 1em #071013;
-  border-radius: 2em;
-  overflow-y: scroll;
-  height: 60vmin;
-}
-
-.shirt-content::-webkit-scrollbar {
-  width: 1em;
-  border-radius: 2em;
-}
-
-/* Track */
-.shirt-content::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 2em;
-}
-
-/* Handle */
-.shirt-content::-webkit-scrollbar-thumb {
-  background: #f1edee;
-  border: .1em solid #036;
-  border-radius: 2em;
-}
-
-/* Handle on hover */
-.shirt-content::-webkit-scrollbar-thumb:hover {
-  background: #0710139b;
-  border-radius: 2em;
-}
-
-.shirt-row {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
+  box-shadow: 0 0 0.25em #071013;
+  padding: 1.5em;
   margin: 1em;
-  border-bottom: 0.25em dotted #C42021;
+  color: #071013;
+  text-align: center;
+  width: fit-content;
 }
 
-.shirt-row h3 {
-  font-size: 4vmin;
+.shirt-content h3 {
+  font-size: 5vmax;
 }
 
-.shirt-row span {
+.shirt-content span {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  font-size: 2vmin;
-  border-left: 0.25em dotted #C42021;
 }
 
-.shirt-row img {
-  border-radius: 5em;
+.shirt-content img {
+  width: 100%;
+  border-radius: .25em;
 }
 
-.shirt-row * {
+.shirt-content * {
   margin: 0.5em;
 }
 
 .shirt-text {
+  border-top: .5em dotted #C42021;
   margin: 1em;
   padding: 1em;
   font-size: 1.25em;
@@ -2062,7 +2095,7 @@ nav.navbar.scrolled .nav-links {
   box-shadow: 0 0 0.25em #071013;
   color: #f1edee;
 }
-
+/* 
 .offcanvas-details {
   border: 0.5em solid #036;
   box-shadow: 0 0 0.25em #cecece;
@@ -2093,7 +2126,7 @@ nav.navbar.scrolled .nav-links {
 
 .offcanvas-details .offcanvas-body h3 {
   border-bottom: 0.25em dotted #036;
-}
+} */
 
 /* CONTACT PAGE */
 

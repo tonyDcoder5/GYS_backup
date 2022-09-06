@@ -9,7 +9,6 @@ export default function Values({prompts = []}) {
     return (
     <div className="values-block">
         <h3>{prompts[0]?.section_title}</h3>
-        <h4>{prompts[0]?.section_text}</h4>
         <Row className="g-4">
           {values ? (
             values.map((value) => {

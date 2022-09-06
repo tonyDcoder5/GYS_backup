@@ -1,14 +1,86 @@
 [
     {
-        "first_name": "Lorem",
-        "last_name":"Ipsum",
-        "mobile_number": "555-555-5555",
-        "email_address": "loremIp@gmail.com"
+        "first_name": "Jacqui",
+        "last_name": "Williams",
+        "contact_title": "PhD, Licensed Marriage and Family Therapist (LMFT), Qualified Supervisor",
+        "contact_url": "https://www.instagram.com/drjacquiwilliams/",
+        "contact_img": "../assets/img/jacqui-about-headshot.jpg",
+        "contact_org_name": "Stetson University Dept of Counselor Education",
+        "contact_desc": "Dr. Jacqueline Williams is a Licensed Marriage and Family Therapist, Qualified Supervisor, and is currently an Assistant Professor of Practice at Stetson University in the Department of Counselor Education. She has almost 20 years of private practice, residential, and community mental health experience. She is experienced and educated in working with students and clients in the most proficient and effective ways. \nIn her practice, she specializes in working with PTSD, Veterans, Mindfulness, couples, and helping athletes overcome mental barriers they experience before, during, and after competition. Her expansive background, research, and experience has contributed to developing successful tools to improve communication skills in her client’s relationships. \nShe is the daughter of a Veteran and has a passion for helping soldiers with the transition out of the military, with a focus on NeuroScience. She also enjoys sitting down to enjoy a good beer with anyone who wants to talk.",
+        "mobile_number": "407-956-5773",
+        "email_address": "DrJacquiWilliams@gmail.com",
+        "contact_level": "founder"
     },
     {
-        "first_name": "Ippy",
-        "last_name": "Lorem",
-        "mobile_number": "555-555-5555",
-        "email_address": "Ippy@gmail.com"
+        "first_name": "Andria",
+        "last_name": "Estrella-Roa",
+        "contact_title": "Licensed Marriage and Family Therapist (LMFT), Qualified Supervisor",
+        "contact_url": "https://aermentalhealth.com/",
+        "contact_img": "../assets/img/andria-about-headshot.jpg",
+        "contact_org_name": "AER Mental Health Services",
+        "contact_desc": "Andria Estrella-Roa, LMFT is a Licensed Marriage and Family Therapist, owner of AER Mental Health Services, and Florida Board Approved Qualified Supervisor for Registered Marriage & Family Therapy Interns and Registered Mental Health Counselor Interns. Ms. Estrella-Roa, LMFT has been trained in a variety of Systemic Therapies applicable to most mental health issues. Ms. Estrella-Roa, LMFT, graduated with her Master’s in Marriage and Family Therapy from Valdosta State University and earned a Bachelor’s in Psychology from the University of Florida. \nShe is a Clinical Fellow in the American Association of Marriage and Family Therapy and the Florida Association of Marriage and Family Therapy. She has extensive experience working with individuals and families in a variety of settings to include: working with sexual abuse victims, physical abuse victims, domestic violence victims, the homeless, adolescents, couples, and families with everyday problems.",
+        "mobile_number": "407-259-5856",
+        "email_address": "aermentalhealth@gmail.com",
+        "contact_level": "founder"
+    },
+    {
+        "first_name": "Suicide",
+        "last_name": "Prevention",
+        "contact_title": "Lifeline",
+        "contact_url": "https://suicidepreventionlifeline.org/",
+        "contact_img": "../assets/img/logos/urgent-contacts/suicide-lifeline-logo.png",
+        "contact_org_name": "Suicide & Crisis Lifeline",
+        "contact_desc": "We can all help prevent suicide. The Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals in the United States.",
+        "mobile_number": "1-800-273-8255",
+        "email_address": "NA",
+        "contact_level": "urgent"
+    },
+    {
+        "first_name": "HD",
+        "last_name": "Counseling",
+        "contact_title": "HD Counseling",
+        "contact_url": "https://hdcounseling.com",
+        "contact_img": "../assets/img/logos/local-contacts/HD-Counseling-Logo.png",
+        "contact_org_name": "HD Counseling",
+        "contact_desc": "HD Counseling, LLC makes every effort to accompany its clients in reaching their goals in both their personal and professional lives. We strive to counsel individuals and groups in such a way that creates a safe place for developing the tools needed to address the circumstances presenting hindrances to the individual's ideal position. HD Counseling, LLC brings a different outlook to the benefits that counseling offers.",
+        "mobile_number": "407-504-1869",
+        "email_address": "info@hdcounseling.com",
+        "contact_level": "local"
+    },
+    {
+        "first_name": "Dawn",
+        "last_name": "Yelvington",
+        "contact_title": "PhD, LMFT, Qualified Supervisor",
+        "contact_url": "https://www.healingheartstherapies.com/",
+        "contact_img": "../assets/img/GYS_logo.png",
+        "contact_org_name": "Healing Hearts Therapies & Equine, LLC",
+        "contact_desc": "At Healing Hearts Therapies & Equine, LLC, our goal is to help you uncover your true potential and lead a life that is worth celebrating. While we can't change difficult situations of the past, we can work together to better understand and resolve challenges in your life. By applying complementary therapy approaches and techniques, we will unearth long-standing behavior patterns or negative perceptions that may be holding you back from experiencing a more fulfilling and meaningful life.",
+        "mobile_number": "386-259-8994",
+        "email_address": "healingheartstherapies@gmail.com",
+        "contact_level": "local"
+    },
+    {
+        "first_name": "Camaraderie ",
+        "last_name": "Foundation",
+        "contact_title": "Camaraderie Foundation - Orlando",
+        "contact_url": "https://camaraderiefoundation.org/",
+        "contact_img": "../assets/img/logos/local-contacts/camraderiefoundation-logo.png",
+        "contact_org_name": "Camaraderie Foundation",
+        "contact_desc": "Camaraderie Foundation's mission is to provide healing for the 'Invisible wounds of war' through counseling, emotional, and spriitual support for all military service members, veterans, and their families",
+        "mobile_number": "407-841-0071",
+        "email_address": "admin@camaraderiefoundation.org",
+        "contact_level": "local"
+    },
+    {
+        "first_name": "Sample First",
+        "last_name": "Sample Last",
+        "contact_title": "Sample Title",
+        "contact_url": "#",
+        "contact_img": "../assets/img/GYS_logo.png",
+        "contact_org_name": "Sample org name",
+        "contact_desc": "Sample description",
+        "mobile_number": "123-456-7890",
+        "email_address": "sameple@test.com",
+        "contact_level": "test"
     }
 ]

@@ -1,12 +1,282 @@
 [
     {
         "user_id": 1,
+        "section_title": "example title",
         "section_name": "header",
         "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie."
     },
     {
-        "user_id": 2,
+        "user_id": 1,
+        "section_title": "example title",
         "section_name": "about",
         "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non odio euismod lacinia at quis risus sed. Dictumst quisque sagittis purus sit. Cum sociis natoque penatibus et magnis dis. Sem et tortor consequat id porta nibh venenatis. Diam in arcu cursus euismod quis viverra. Feugiat nibh sed pulvinar proin gravida hendrerit. A iaculis at erat pellentesque adipiscing commodo. Nunc faucibus a pellentesque sit amet porttitor eget. Viverra aliquet eget sit amet tellus cras adipiscing enim. Suspendisse in est ante in nibh mauris cursus mattis molestie."
+    },
+    {
+        "user_id": 1,
+        "section_name": "mission-sect",
+        "section_title": "GYS has our Heroes Backs",
+        "section_text": "At GYS, our vision is in our name, Got Your Six. We got your back. We got you. We got all of you. We are glad you are back home and want to show you how much we got have your back. We will not let you become a statistic. We will not let you feel alone. We will not let you remain vulnerable. We want you to have the mental health services you need and deserve. For as long as you need them.",
+        "section_subtext": "mission-sect-header",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "mission-stats-1",
+        "section_title": "3rd largest population",
+        "section_text": "Florida is the third largest population in the nation after California and Texas with roughly 1.5 million veterans.",
+        "section_subtext": "mission-stats-1",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "mission-stats-2",
+        "section_title": "6th largest Active Duty military population",
+        "section_text": "69,000 active duty military personally reside in Florida, the 6th largest population in the nation",
+        "section_subtext": "mission-stats-2",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "mission-stats-3",
+        "section_title": "Veteran most common concerns",
+        "section_text": "The three most common mental health concerns for veterans are Post-Traumatic Stress Disorder (PTSD), depression and Traumatic Brain Injury (TBI).",
+        "section_subtext": "mission-stats-3",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "mission-stats-4",
+        "section_title": "Veterans more susceptible to mental health concerns",
+        "section_text": "The rate of major depression among Veterans is 5x as high as civilians, while the rate of PTSD is nearly 15x higher.",
+        "section_subtext": "mission-stats-4",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "roadmap-sect-header",
+        "section_title": "The GYS Roadmap",
+        "section_text": "GYS is here to serve our service members by supporting them, their families, & friends with tools & resources to assist in transitioning our heroes home",
+        "section_subtext": "mission-sect-header",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "roadmap-block-1",
+        "section_title": "Veterans",
+        "section_text": "Monthly Events, educational resources, partnered perks, and much more to come for our heroes to get the help and support they need to effectively transition home from their service.",
+        "section_subtext": "roadmap-block-1",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "roadmap-block-2",
+        "section_title": "Families & Friends",
+        "section_text": "Our greatest allies in successfully helping truly make our heroes feel at home again, we will provide tools and resources in order to help navigate the process of supporting a veteran in need.",
+        "section_subtext": "roadmap-block-2",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "roadmap-block-3",
+        "section_title": "Community & Advocacy",
+        "section_text": "GYS wants to help veterans know our mission begins when theirs' ends. With every shirt or product purchase, you can help raise awareness of Veterans mental health while empowering our local community to be armed with the knowledge, compassion, and courage to complete our mission, to save veteran lives. By these purchases on our website or at our local pop-ups, you can help us invest directly into mental health services for our veterans.",
+        "section_subtext": "roadmap-block-3",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "why-block",
+        "section_title": "Why GYS?",
+        "section_subtitle": "To SAY and SHOW, we Golf Yankee Six.",
+        "section_text": "Golf Yankee Six is a movement dedicated to creating awareness of veteran’s mental health and finding help for veterans’ struggling with depression, PTSD, and suicide in Orlando, Florida. We started to encourage, educate, and invest directly into mental health services for our veterans. Use your voice to start a conversation, create hope, and show your support for our veterans. If you want to support our mission, you can get involved by following us on Facebook & Instagram, attending our events, buying our American-made merchandise, or sharing resources from our website with a loved one.",
+        "section_subtext": "why-block-header",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "who-block",
+        "section_title": "Who are we?",
+        "section_subtitle": "Meet the Founders!",
+        "section_text": "We are two women with a goal to change the mental health world, specifically for our service men and women. As mental health practitioners, with 30 years combined experience and 15 years of friendship, we knew we could make a difference. We specialize in trauma, Post-traumatic Stress Disorder, and veterans returning from combat. We have a specific passion to change the lives of our veterans, one soldier at a time. What they see and experience is our motivation to never give up on them. Ever.",
+        "section_subtext": "who-block-text",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "values-header",
+        "section_title": "Our Values at GYS",
+        "section_subtitle": null,
+        "section_text": "We hold these near and dear to our hearts",
+        "section_subtext": "",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "values-block-1",
+        "section_title": "Teamwork",
+        "section_subtitle": null,
+        "section_text": "Teamwork Text",
+        "section_subtext": "teamwork-block",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "values-block-2",
+        "section_title": "Hope",
+        "section_subtitle": null,
+        "section_text": "hope Text",
+        "section_subtext": "hope-block",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "values-block-3",
+        "section_title": "Compassion",
+        "section_subtitle": null,
+        "section_text": "Compassion text",
+        "section_subtext": "compassion-block",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "values-block-4",
+        "section_title": "Community",
+        "section_subtitle": null,
+        "section_text": "Community text",
+        "section_subtext": "community-block",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "about-support-header",
+        "section_title": "How can you support Golf Yankee Six?",
+        "section_subtitle": null,
+        "section_text": "Here are a few ways to get involved and help in our mission to truly make our heroes feel at home again:",
+        "section_subtext": "support-header",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "support-card-1",
+        "section_title": "Follow us on IG and FB for updates",
+        "section_subtitle": null,
+        "section_text": "support card text 1 -DB",
+        "section_subtext": "support-1-text",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "support-card-2",
+        "section_title": "Educate and prepare your toolkit to help the heroes in your life with our free resources and shareables",
+        "section_subtitle": null,
+        "section_text": "support card text 2 -DB",
+        "section_subtext": "support-2-text",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "support-card-3",
+        "section_title": "Wear your support through our upcoming American-made GYS merchandise",
+        "section_subtitle": null,
+        "section_text": "support card text 3 -DB",
+        "section_subtext": "support-3-text",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "support-card-4",
+        "section_title": "Come to our events and meet the community! More details coming soon, follow us on Facebook & Instagram for updates",
+        "section_subtitle": null,
+        "section_text": "support card text 4 -DB",
+        "section_subtext": "support-4-text",
+        "section_image": null,
+        "section_video": null,
+        "section_link": null
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-header",
+        "section_title": "GYS Merch Coming Soon!",
+        "section_subtitle": "Follow us on FB and IG for updates",
+        "section_text": "Premium American-Made shirts and caps by Bayside America for sale soon, all proceeds will help us in our mission to provide our veterans the mental health services and support they need, for as long as they need to feel at home again.",
+        "section_subtext": "shop-header-text",
+        "section_image": ["../assets/img/shirts/gys-shirt-model-blue-1.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"],
+        "section_video": null,
+        "section_link": "https://www.astsportswear.com/homepage"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-info-1",
+        "section_title": "Standard Gray GYS",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "standard-gray-1",
+        "section_image": ["../assets/img/shirts/gys-shirt-model-gray-1.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"],
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-info-1",
+        "section_title": "Standard Blue GYS",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "standard-blue-1",
+        "section_image": ["../assets/img/shirts/gys-shirt-model-blue-1.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"],
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-purchase-prompt",
+        "section_title": "Available for preorder/purchase soon",
+        "section_subtitle": null,
+        "section_text": "Follow us on FB and IG for more info, shirts will be available for purchase online and at our in-person events soon.",
+        "section_subtext": "shirt-purchase-prompt",
+        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-supplier-prompt",
+        "section_title": "Bayside America Tees",
+        "section_subtitle": "An American company helping support the American people",
+        "section_text": "We only use 100% American made/manufactured/designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee - at https://usabayside.com/. Our shirts are printed by Breaking Free Industries https://breakingfreeindustries.com/ in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
+        "section_subtext": "shirt-purchase-prompt",
+        "section_image": ["../assets/img/logos/Breaking_Free_Apparel_logo.png", "../assets/img/logos/Breaking_Free_Apparel_logo.png"],
+        "section_video": null,
+        "section_link": ["https://usabayside.com/", "https://breakingfreeindustries.com/"]
     }
 ]

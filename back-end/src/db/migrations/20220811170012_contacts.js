@@ -9,11 +9,12 @@ exports.up = function (knex) {
 		table.string("last_name").notNullable();
 		table.string("contact_title");
 		table.string("contact_url");
-		table.string("contact_img_url");
-		table.string("contact_icon_url");
+		table.string("contact_img");
+		table.string("contact_org_name");
 		table.string("contact_desc", 1000);
-		table.string("mobile_number");
-		table.string("email_address");
+		table.string("mobile_number").notNullable();
+		table.string("email_address").notNullable();
+		table.string("contact_level");
 		table.timestamps(true, true);
 	});
 };

@@ -16,7 +16,7 @@ export default function UrgentSupport({ contacts = [] }) {
           <section>
             <p>{contacts[0]?.contact_desc}</p>
             <span className="support-btns-urgent">
-              <strong>Main Phone: {contacts[0]?.mobile_number}</strong>
+              <strong>Main Phone: 988 </strong>
               <button className="btn btn-orgsite">
                 <a href={contacts[0]?.contact_url} target="_blank">
                   Website

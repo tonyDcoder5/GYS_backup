@@ -10,11 +10,16 @@ exports.up = function (knex) {
             .references("user_id")
             .inTable("users")
             .onDelete("cascade");
-		table.string("title").notNullable();
-		table.string("content",2000).notNullable();
-		table.date("post_date").notNullable();
-		table.string("image_url",500);
-        table.string("video_url",500);
+		table.string("post_title").notNullable();
+		table.string("post_author");
+		table.string("post_subtitle").notNullable();
+		table.string("post_text",2000).notNullable();
+		table.string("post_subtext").notNullable();
+		table.date("post_date");
+		table.string("post_url");
+		table.string("post_image");
+        table.string("post_video");
+		table.boolean("top");
 		table.timestamps(true, true);
 		//**TODO password if implementation of verification is completed **//
 	});

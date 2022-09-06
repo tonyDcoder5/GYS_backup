@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Downloadables from "../Resources/Downloadables";
 import FAQs from "./FAQs";
-import ShopHeader from "../Shop/ShopHeader";
+import ShopBanner from "../Shop/ShopBanner";
 import { listPosts } from "../utils/api";
 
 export default function FAQLayout() {
@@ -26,7 +26,7 @@ export default function FAQLayout() {
 
   return (
     <div className="faq-layout">
-      <ShopHeader />
+      <ShopBanner />
       <FAQs data={faqs} />
       <Downloadables />
     </div>

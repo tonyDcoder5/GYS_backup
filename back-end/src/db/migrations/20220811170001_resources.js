@@ -5,9 +5,11 @@
 exports.up = function(knex) {
   return knex.schema.createTable("resources",(table)=>{
     table.increments("resource_id").primary();
-    table.string("name").notNullable();
-    table.string("description",1000).notNullable();
-    table.string("url",500).notNullable();
+    table.string("resource_title").notNullable();
+    table.string("resource_subtext").notNullable();
+    table.string("resource_description",1000).notNullable();
+    table.string("resource_url",500).notNullable();
+    table.string("resource_media",500).nullable();
     table.timestamps(true,true)
   })
 };
