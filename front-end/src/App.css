@@ -449,8 +449,8 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 1em 1em 2em 1em;
-  padding: 3em;
+  margin: 1em 1em 1em 1em;
+  padding: 2em;
   background-color: #cecece;
   border-radius: 2em;
   box-shadow: 0 0 1em #071013;
@@ -470,7 +470,7 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   align-items: center;
   box-shadow: 0 0 0.25em #071013;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.25em;
   line-height: 2em;
   margin: 1em 0 .5em 0;
@@ -479,13 +479,13 @@ nav.navbar.scrolled .nav-links {
 
 .intro-subhead h3{
   border-bottom: .25em dotted #C42021;
-  font-size: 3.5vmax;
+  font-size: 5vmax;
   padding-bottom: .5em;
   width: fit-content;
 }
 
 .intro-subhead p{
-  font-size: 2vmax;
+  font-size: 2.5vmax;
   line-height: 2em;
 }
 
@@ -560,6 +560,10 @@ nav.navbar.scrolled .nav-links {
 
 
 .roadmap-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 1em;
   background-color: #cecece;
   border-radius: 1em;
@@ -571,6 +575,7 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   padding: 2em;
   margin: 2em;
+  width: fit-content;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -1767,7 +1772,6 @@ nav.navbar.scrolled .nav-links {
   color: #f1edee;
   border-radius: 1em;
   margin: 2em 0 1em 0;
-  width: 100%;
   overflow-y: scroll;
   height: 40vmax;
 }
@@ -1848,8 +1852,7 @@ nav.navbar.scrolled .nav-links {
   color: #071013;
   text-align: center;
   padding: 2em;
-  margin: auto;
-  width: 100%;
+  margin: 1em 1em 1em 1em;
   border-radius: 2em;
   box-shadow: 0em 0em 1em #071013;
 }

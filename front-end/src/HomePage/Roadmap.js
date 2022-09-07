@@ -4,7 +4,7 @@ export default function Roadmap({ prompts }) {
   const roadmapPrompts = [...prompts];
 
   return (
-    <div className="roadmap-sect m-3">
+    <div className="roadmap-sect">
       {roadmapPrompts ? (
         roadmapPrompts.map((prompt) => {
         
