@@ -12,7 +12,7 @@ export default function Banner() {
           </a>
         </div>
         <div className="brand-text">
-          <a href="home"><h1><b>Golf Yankee Six</b></h1></a>
+          <a href="home"><h1>Golf Yankee Six</h1></a>
           <StarBanner />
           <h4><b>Veterans Mental Health Matters</b></h4>
         </div>
