@@ -1762,7 +1762,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .events .star-banner span{
-  transform: scale(1.75);
+  font-size: 5vmax;
 }
 
 .events-block::-webkit-scrollbar {
@@ -1805,8 +1805,6 @@ nav.navbar.scrolled .nav-links {
 .agenda-block *{
   line-height: 2em;
 }
-
-
 
 .agenda-block img:hover {
   transform: scale(2);

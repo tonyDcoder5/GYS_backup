@@ -5,7 +5,7 @@ export default function ShopHeader({ prompts = [] }) {
   // console.log(prompts);
 
   return (
-    <div className="row shop-header">
+    <div className="shop-header">
       <StarBanner />
       <div className="shop-header-content">
       <div>
