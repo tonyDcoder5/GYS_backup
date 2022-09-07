@@ -163,7 +163,7 @@ html{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 80%;
   padding: 2em;
   margin: .25em 0 .5em 0;
   color: #f1edee;
@@ -172,7 +172,7 @@ html{
 }
 
 .star-banner span{
-  transform: scale(2);
+  font-size: 5vmax;
 }
 
 .header-banner {
@@ -258,7 +258,7 @@ html{
 }
 
 .brand-text .star-banner span{
-  transform: scale(2);
+  font-size: 6vmax;
 }
 
 .header-nav {
@@ -515,7 +515,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .mission-stats .star-banner span{
-  transform: scale(2);
+  font-size: 5vmax;
 }
 
 .mission-stats .col {
@@ -791,20 +791,16 @@ nav.navbar.scrolled .nav-links {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2em;
-  margin: 2em;
+  padding: 1em;
+  margin: 1em 0em 1em 0em;
   background-color: #cecece;
-  border-radius: 2em;
-  box-shadow: 0 0 1em #071013;
+  border-radius: .5em;
+  box-shadow: 0 0 .5em #071013;
   color: #071013;
 }
 
 .values-block h3{
-  font-size: 4vmax;
-}
-
-.values-block h4{
-  font-size: 3vmax;
+  font-size: 5vmax;
 }
 
 .values-block .col p{
@@ -813,9 +809,7 @@ nav.navbar.scrolled .nav-links {
 
 .values-block .row {
   border-radius: 0.5em;
-  background-color: #f1edee;
-  box-shadow: 0 0 0.5em #071013;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
   margin: 1em;
 }
@@ -827,39 +821,30 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   align-items: center;
   border-radius: 1em;
-  width: 100%;
   padding: 1em;
   margin: 1em 1em 1em 1em;
   box-shadow: 0 0 0.5em #071013;
 }
 
-.value *{
-  margin: 1em;
-}
-
 .about-support {
   background-color: #036;
   border-radius: 1em;
-  padding: 2em;
-  margin: 2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-
-
 .about-support h3{
   margin: .5em;
-  font-size: 4vmax;
+  font-size: 5vmax;
 }
 
 .about-support h4{
   margin: 0 0 .5em 0;
-  font-size: 3vmax;
+  font-size: 3.5vmax;
 }
-
 
 .support-card {
   text-align: center;
@@ -868,10 +853,10 @@ nav.navbar.scrolled .nav-links {
   justify-content: center;
   align-content: center;
   align-items: center;
-  padding: 2em;
-  margin: 0.5em;
-  border-radius: 2em;
-  box-shadow: 0 0 0.75em #071013;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 0.5em #071013;
 }
 
 .support-card .star-banner{
@@ -887,7 +872,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .support-card section p{
-  font-size: 2.5vmax;
+  font-size: 3.5vmax;
 }
 
 .support-card section button {
@@ -960,7 +945,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .urgent-resources .star-banner span{
-  transform: scale(1.5);
+  font-size: 5vmax;
 }
 
 .support-card-urgent {
@@ -1070,27 +1055,29 @@ nav.navbar.scrolled .nav-links {
   justify-items: center;
   align-content: center;
   align-items: center;
-  border-radius: 2em;
+  border-radius: 1em;
   text-align: center;
-  box-shadow: 0.5em 0.5em 2em #071013;
+  box-shadow: 0em 0em .5em #071013;
 }
 
 .local-support-block .star-banner {
-  margin: .5em 0 1em 0;
+  margin: 1em 0 1em 0;
   padding: 1em;
 }
 
-
-
 .local-support-block .star-banner span{
-  transform: scale(2);
+  font-size: 5vmax;
 }
 
 .local-support-block h3{
   font-size: 3.5vmax;
 }
 
-.local-hotlines{
+.local-support-block section{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 2em 1em 2em 1em;
 }
 
@@ -1106,12 +1093,7 @@ nav.navbar.scrolled .nav-links {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 600px) {
-  .local-support-block .local-counseling span{ 
-    flex-direction: column-reverse;
-  }
 
-}
 
 .contact-list {
   display: flex;
@@ -1134,7 +1116,6 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   background-color: #cecece;
   border-radius: 2em;
-  width: fit-content;
   overflow: auto;
   box-shadow: 0em 0em 0.25em #071013;
 }
@@ -1200,9 +1181,6 @@ nav.navbar.scrolled .nav-links {
 .local-orgsite {
   background-color: #f1edee;
   border: 0.2em solid #036;
-}
-
-.local-orgsite {
   background-color: #5d737d;
   border: 0.25em solid #036;
   font-size: 1.25em;
@@ -1213,16 +1191,7 @@ nav.navbar.scrolled .nav-links {
   color: #f1edee;
 }
 
-.local-orgsite:hover {
-  background-color: #cecece;
-  border: 0.25em solid #036;
-  box-shadow: 0 0 0.25em #f1edee;
-  color: #036;
-}
 
-.local-orgsite a:hover {
-  color: #036;
-}
 
 .contact-line {
   display: flex;
@@ -1252,12 +1221,14 @@ nav.navbar.scrolled .nav-links {
 
 /* DOWNLOADS COMPONENT STYLES */
 .downloads {
-  margin: 2em;
+  margin: 1em;
 }
 
 .downloadables-block {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #cecece;
   padding: 2em;
   margin: 2em 0 2em 0;
@@ -1272,7 +1243,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .downloadables-block .star-banner span{
-  transform: scale(1.5);
+  font-size: 5vmax;
 }
 
 .downloadables-block h4 {
@@ -2227,7 +2198,7 @@ nav.navbar.scrolled .nav-links {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   padding: 2em;
   margin-top: 1em;
   text-align: center;
@@ -2272,10 +2243,22 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  
   margin: 2vmax 3.5vmax 2vmax 3.5vmax;
 }
 
+.footer-text h3{
+  font-size: 5vmax;
+
+}
+
+.footer-text h4{
+  font-size: 4vmax;
+  
+}
+
 .footer-text a {
+  
   text-decoration: none;
   color: #cecece;
 }
@@ -2295,11 +2278,12 @@ nav.navbar.scrolled .nav-links {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin: 2em 0 2em 0;
+  margin: 1em 0 1em 0;
 }
 
 .footer-socials span{
-  transform: scale(1.5);
+  margin: 1em 2em 1em 2em;
+  transform: scale(1.25);
 }
 
 .footer-socials span:hover {

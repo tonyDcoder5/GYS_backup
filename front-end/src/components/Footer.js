@@ -25,9 +25,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-text">
-       <a href="/home"> <h3>
-          <b>Golf Yankee Six</b>
-        </h3>
+       <a href="/home"> <b> <h3>
+         Golf Yankee Six
+        </h3></b>
         <h4>We Got Your Back</h4></a>
       </div>
       <StarBanner />
