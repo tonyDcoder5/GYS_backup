@@ -16,7 +16,7 @@ export default function Values({prompts = []}) {
                 <Col key={value?.prompt_id}>
                   <h3>{value?.section_title}</h3>
                   <StarBanner />
-                  <p>{value?.section_text}</p>
+                  {/* <p>{value?.section_text}</p> */}
                 </Col>
               );
             })

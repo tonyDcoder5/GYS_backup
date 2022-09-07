@@ -15,7 +15,6 @@ export default function HomeLayout({prompts = []}) {
         <div className="home">
             <div className="home-layout">
             <Mission prompts={missionPrompts} />
-
             <Roadmap prompts={roadmapPrompts} />
             <Events />
             </div>

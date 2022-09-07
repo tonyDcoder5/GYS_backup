@@ -29,11 +29,11 @@ export default function AboutSupport({ prompts = [] }) {
                 <p>
                   {prompt?.section_title}
                 </p>
-                <button className="btn">
+                {/* <button className="btn">
                   <a href={prompt?.section_link} target="_blank">
                     Link
                   </a>
-                </button>
+                </button> */}
               </section>
             </Card>
           </Col>

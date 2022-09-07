@@ -79,7 +79,6 @@ export default function AboutUs({prompts = [] }) {
       </div>
       <div className="who-block">
         <h2>Who is GYS?</h2>
-        <div>
         {team ? (
           team.map((i, idx) => {
             return (
@@ -100,7 +99,6 @@ export default function AboutUs({prompts = [] }) {
           </div>
         )}
         </div>
-      </div>
     </div>
   );
 }

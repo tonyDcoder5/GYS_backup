@@ -7,11 +7,14 @@ import StarBanner from "../components/StarBanner";
 export default function UrgentSupport({ contacts = [] }) {
   // console.log(contacts);
 
+  let urgentLogo = "https://988lifeline.org/wp-content/uploads/2022/07/modal-992x558.png";
+
   return (
     <div className="resource-block urgent-resources">
       <StarBanner />
       <div className="support-card-urgent">
-        <div className="urgent-contact">      
+        <div className="urgent-contact">
+        <img src={urgentLogo} alt="" width="100%"/>      
         <h3>{contacts[0]?.contact_org_name}</h3>
           <section>
             <p>{contacts[0]?.contact_desc}</p>
@@ -27,7 +30,6 @@ export default function UrgentSupport({ contacts = [] }) {
         </div>
       </div>
 
-      {/* highlight just 988 lifeline and other websites to find out more about what they can offer  */}
       {/* <Row xs={1} sm={2} className="g-4">
         {contactsPage.map((contact, idx) => (
           <Col key={contact.id}>

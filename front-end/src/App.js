@@ -1,5 +1,7 @@
 import React, {useState,useEffect} from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import 'normalize.css';
+import "./App.css";
 
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -9,7 +11,6 @@ import Resources from "./Resources/Resources";
 import FAQLayout from "./FAQLayout/FAQLayout";
 import NotFound from "./components/NotFound";
 import Contact from "./FAQLayout/Contact";
-import "./App.css";
 // import Header from "./components/Header";
 import Banner from "./components/Banner";
 import { listPrompts } from "./utils/api";

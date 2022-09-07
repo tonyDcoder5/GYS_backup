@@ -41,7 +41,7 @@ export default function LocalSupport({ contacts = [] }) {
       <section className="local-hotlines">
         <h3>Local Support Hotlines</h3>
         <StarBanner />
-        <div className="contact-select">
+        <div className="contact-list">
           <div className="contact-group">
             {contactsPage.map((contact, idx) => (
               <div
@@ -49,68 +49,54 @@ export default function LocalSupport({ contacts = [] }) {
                 key={idx}
                 className="contact-line"
               >
-                <section>
+                <div>
                   <h4>{contact.contact_org_name}</h4>
                   <img
                     key={contact.contact_id}
                     src={logos[idx]}
                     width={"50%"}
                   />
-                </section>
+                </div>
+                <div>
+                <p>{contact.contact_desc}</p>
+                <Button className="local-orgsite">
+                  <a href={contact.orgUrl} target="_blank">Website</a>
+                </Button>
+                </div>
               </div>
             ))}
-          </div>
-          <div className="contact-card">
-            <Card>
-              <Card.Body>
-                <Card.Title>{hiCard.contact_org_name}</Card.Title>
-                <Card.Text>{hiCard.orgDesc}</Card.Text>
-                <Button className="local-orgsite">
-                  <a href={hiCard.orgUrl} target="_blank">Website</a>
-                </Button>
-              </Card.Body>
-            </Card>
           </div>
         </div>
       </section>
       <section className="local-counseling">
         <h3>Local Counseling Support</h3>
         <StarBanner />
-        <span>
-          {" "}
-          <div className="contact-card">
-            <Card>
-              <Card.Body>
-                <Card.Title>{hiCard.contact_org_name}</Card.Title>
-                <Card.Text>{hiCard.orgDesc}</Card.Text>
-                <Button className="local-orgsite">
-                  <a href={hiCard.orgUrl} target="_blank">Website</a>
-                </Button>
-              </Card.Body>
-            </Card>
-          </div>
-          <div className="contact-select">
-            <div className="contact-group">
-              
-              {localCounseling.map((contact, idx) => (
-                <div
-                  onClick={() => clickHandle(contact)}
-                  key={idx}
-                  className="contact-line"
-                >
-                  <section>
-                    <h4>{contact.contact_org_name}</h4>
-                    <img
-                      key={contact.contact_id}
-                      src={logos[idx]}
-                      width={"50%"}
-                    />
-                  </section>
+        <div className="contact-list">
+          <div className="contact-group">
+            {contactsPage.map((contact, idx) => (
+              <div
+                onClick={() => clickHandle(contact)}
+                key={idx}
+                className="contact-line"
+              >
+                <div>
+                  <h4>{contact.contact_org_name}</h4>
+                  <img
+                    key={contact.contact_id}
+                    src={logos[idx]}
+                    width={"50%"}
+                  />
                 </div>
-              ))}
-            </div>
+                <div>
+                <p>{contact.contact_desc}</p>
+                <Button className="local-orgsite">
+                  <a href={contact.orgUrl} target="_blank">Website</a>
+                </Button>
+                </div>
+              </div>
+            ))}
           </div>
-        </span>
+        </div>
       </section>
     </div>
   );

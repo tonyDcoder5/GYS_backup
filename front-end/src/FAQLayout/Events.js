@@ -25,7 +25,6 @@ export default function Events() {
 
   return (
     <div className="events">
-      <div className="row">
         <h4>Upcoming Events:</h4>
         <p>Today: {date}</p>
         <StarBanner />
@@ -63,7 +62,6 @@ export default function Events() {
             more updates!
           </h4>
       </div>
-    </div>
   );
 }
 
