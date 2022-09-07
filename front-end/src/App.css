@@ -291,6 +291,7 @@ nav.navbar.scrolled {
   z-index: 9999;
   transition: 0.5 ease;
   padding: 1em 1em 1em 1em;
+  line-height: .5em;
   text-align: center;
   background-color: #cececed4;
   border-radius: 5em;
