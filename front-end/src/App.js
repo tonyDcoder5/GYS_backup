@@ -42,8 +42,9 @@ export default function App() {
     <Router>
       <div className="body">
         <Banner />
-        <NavBar />
-          <div>
+       
+          <div> 
+          <NavBar />
           {/* <Header /> */}
           <Routes>
             <Route exact path="/" element={ <Navigate to="/home" />} />

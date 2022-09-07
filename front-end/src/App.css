@@ -225,7 +225,7 @@ html{
 }
 
 .brand-logo img {
-  width: 10vmax;
+  width: 20vmax;
   margin-right: 2vmax;
   box-shadow: 0 0 0.5em #071013;
   border-radius: 10em;
@@ -263,11 +263,10 @@ html{
 
 .header-nav {
   transition: 0.3 ease-in-out;
-  padding: 0.5em;
+  
   background-color: #f1edee9d;
   border-bottom: 0.1em solid #071013;
   width: auto;
-  margin: 0 1em 0 1em;
 }
 
 nav.navbar {
@@ -275,7 +274,6 @@ nav.navbar {
   justify-content: space-around;
   text-align: center;
   align-content: center;
-  font-size: 1.25em;
   transition: 0.32 ease-in-out;
 }
 
@@ -283,19 +281,20 @@ nav.navbar.scrolled {
   position: fixed;
   display: flex;
   justify-content: center;
+  justify-items: center;
   justify-self: center;
   align-items: center;
   align-self: center;
-  width: 95%;
-  top: 0.1em;
-  margin: 1em 2em 0 0;
+  width: 100%;
+  top: 0.2em;
+  margin: auto;
   z-index: 9999;
   transition: 0.5 ease;
-  padding: 1em;
+  padding: 1em 1em 1em 1em;
   text-align: center;
   background-color: #cececed4;
-  border-radius: 2em;
-  box-shadow: 0.5em 0.5em 1em #071013;
+  border-radius: 5em;
+  box-shadow: 0.1em 0.1em .5em #071013;
 }
 
 nav.navbar.scrolled .nav-links {
@@ -304,19 +303,14 @@ nav.navbar.scrolled .nav-links {
 
 .scroll-brand {
   display: flex;
-  margin-right: 2em;
+  margin: 1em 2em 0 0;
   align-items: center;
   color: #036;
+
 }
 
-
-@media screen and (max-width: 600px) {
-  .scroll-brand{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2.5em;
-  } 
+.scroll-brand h3 {
+  font-size: 3vmax;
 }
 
 .scroll-brand a {
@@ -330,11 +324,23 @@ nav.navbar.scrolled .nav-links {
   color: #f1edee;
 }
 
-.header-nav img {
-  width: 8vmax;
+.scroll-brand img {
+  width: 10em;
   border-radius: 10em;
   box-shadow: 0 0.25em 1em #071013;
   margin-right: 0.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .scroll-brand{
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5em;
+  } 
+  .scroll-brand h3{
+    font-size: 3em;
+  }
 }
 
 .header-nav button {
@@ -794,14 +800,6 @@ nav.navbar.scrolled .nav-links {
   font-size: 2.5vmax;
 }
 
-.values-block .star-banner{
-  color: #f1edee;
-}
-
-.values-block .star-banner span{
-  transform: scale(2);
-}
-
 .values-block .row {
   border-radius: 0.5em;
   background-color: #f1edee;
@@ -817,15 +815,15 @@ nav.navbar.scrolled .nav-links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 3em;
+  border-radius: 1em;
+  width: 100%;
   padding: 1em;
-  margin: 1em;
+  margin: 1em 1em 1em 1em;
   box-shadow: 0 0 0.5em #071013;
-  width: fit-content;
 }
 
-.values-block .col * {
-  margin: 0.5em;
+.value *{
+  margin: 1em;
 }
 
 .about-support {

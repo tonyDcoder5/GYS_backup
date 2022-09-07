@@ -22,12 +22,12 @@ export default function NavBar() {
 
 
   return (
-    <div className="header-nav row">
+    <div className="header-nav">
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         {scrolled ? 
         <div className="scroll-brand">
           <a href="/home"><img src={logo} alt="GYS logo" /></a>
-          <a href="/home"><h3 className="m-2">Golf Yankee Six</h3></a>
+          <a href="/home"><h3>Golf Yankee Six</h3></a>
         </div> : null
         }
         <span className="nav-bar">

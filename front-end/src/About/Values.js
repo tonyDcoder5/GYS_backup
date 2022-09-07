@@ -13,7 +13,7 @@ export default function Values({prompts = []}) {
           {values ? (
             values.map((value) => {
               return (
-                <Col key={value?.prompt_id}>
+                <Col className="value" key={value?.prompt_id}>
                   <h3>{value?.section_title}</h3>
                   <StarBanner />
                   {/* <p>{value?.section_text}</p> */}
