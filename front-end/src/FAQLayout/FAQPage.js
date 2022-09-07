@@ -87,12 +87,12 @@ export default function FAQPage() {
         Back
       </button>
 
-      <div className="faq-header">
+      {/* <div className="faq-header">
         <section>
           <h3>Block - FAQ Header OR Media</h3>
-          {/* <img src={logo} width="25%" alt="GYS logo/Home Button" /> */}
+          <img src={logo} width="25%" alt="GYS logo/Home Button" /> 
         </section>
-      </div>
+      </div> */}
       <StarBanner />
       <div className="faq-content">
           <Accordion defaultActiveKey="0" flush>
@@ -109,7 +109,7 @@ export default function FAQPage() {
           </Accordion>
       </div>
       <StarBanner />
-      <div className="faq-block">
+      {/* <div className="faq-block">
         <section>
           <h5>Comments/Resources Section?</h5>
           <ul>
@@ -123,7 +123,7 @@ export default function FAQPage() {
             })}
           </ul>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 }

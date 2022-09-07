@@ -86,10 +86,10 @@ export default function ShopBlock({ prompts = [] }) {
       </Row>
       <StarBanner />
       <div className="shop-bx">
-        <h2>
+        <h3>
           DESIGNS BY Breaking Free Apparel Co.
-        </h2>
-        <h3>Shirts By Bayside Amercian</h3>
+        </h3>
+        <h4>Shirts By Bayside Amercian</h4>
         <div className="shop-row">
           <section className="supplier-logos">
              <img
