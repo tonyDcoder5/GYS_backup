@@ -172,7 +172,7 @@ html{
 }
 
 .star-banner span{
-  font-size: 5vmax;
+  font-size: 4vmax;
 }
 
 .header-banner {
@@ -254,10 +254,6 @@ html{
 .brand-text .star-banner {
   width: 100%;
   padding: 2em;
-}
-
-.brand-text .star-banner span{
-  font-size: 6vmax;
 }
 
 .header-nav {
