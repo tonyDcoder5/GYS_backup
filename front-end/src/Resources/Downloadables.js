@@ -26,11 +26,11 @@ export default function Downloadables() {
   const downloadsPage = [
     {
       id: 0,
-      title: "test download",
-      icon: require("../assets/img/GYS_logo.jpg"),
-      url: "https://docs.google.com/document/d/1eoWdME3KAClw2CptXYP7AZFrUJCTjbiV-tPnoUO4-Gc/edit?usp=sharing",
-      desc: "Short description of download, with instructions on how",
-      width: "25%",
+      title: "GYS Toolkit",
+      icon: require("../assets/img/gys-pamphlet.png"),
+      url: "https://www.canva.com/design/DAFLL3Z_3eI/DSCmDL-OGBxRK63EPnBPxA/view?utm_content=DAFLL3Z_3eI&utm_campaign=designshare&utm_medium=link&utm_source=viewer",
+      desc: "Easy to read pamphlet with helpful information and tips to know about Veteran's mental health in FL",
+      width: "50%",
     },
     {
       id: 1,
