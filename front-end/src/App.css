@@ -148,7 +148,7 @@ html{
 .body {
   background-color: #f1edee;
   color: #f1edee;
-  letter-spacing: 2.5px;
+  letter-spacing: 1                                 px;
   font-family: 'Oxygen', 'Roboto', 'Source Sans Pro', sans-serif;
 }
 
@@ -254,11 +254,11 @@ html{
 .brand-text .star-banner {
   width: 100%;
   padding: 2em;
+  margin-top: -1em;
 }
 
 .header-nav {
   transition: 0.3 ease-in-out;
-  
   background-color: #f1edee9d;
   border-bottom: 0.1em solid #071013;
   width: auto;
@@ -341,6 +341,7 @@ nav.navbar.scrolled .nav-links {
 
   .scroll-brand h3{
     font-size: 2em;
+    line-height: 1em;
   }
 }
 
@@ -510,7 +511,8 @@ nav.navbar.scrolled .nav-links {
 }
 
 .mission-stats .star-banner span{
-  font-size: 5vmax;
+  margin: 0 .1em 0 .1em;
+  font-size: 4.5vmax;
 }
 
 .mission-stats .col {
@@ -520,8 +522,8 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   align-items: center;
   border-radius: .5em;
-  margin: 1.5em;
-  padding: 1em;
+  margin: 1em;
+  padding: 1em 0 1em 0;
   box-shadow: 0 0 0.25em #cecece;
 }
 
@@ -568,8 +570,8 @@ nav.navbar.scrolled .nav-links {
 .roadmap-block {
   display: flex;
   flex-direction: column;
-  padding: 2em;
-  margin: 2em;
+  padding: 1em;
+  margin: 1em;
   width: fit-content;
   display: flex;
   justify-content: space-between;
@@ -596,7 +598,8 @@ nav.navbar.scrolled .nav-links {
   justify-items: center;
   box-shadow: 0 0 0.2em #f1edee;
   text-align: center;
-  padding: 2em;
+  padding: 1em 0 .5em 0;
+  margin: 1em 0 1em 0;
   border-radius: .5em;
   color: #071013;
   background-color: #f1edee;
@@ -607,8 +610,6 @@ nav.navbar.scrolled .nav-links {
   .roadmap-block div {
     flex-direction: column;
     justify-content: center;
-    margin: auto;
-  
   }
   .roadmap-block div img {
     width: 15vmax;
@@ -627,15 +628,13 @@ nav.navbar.scrolled .nav-links {
 
 /* ABOUT PAGE STYLES */
 
-.about {
-  padding: 1em;
+.about{
+  margin: 2em;
 }
 
-
-
 .why-block {
-  margin: 1em 1em 2em 1em;
-  padding: 2em;
+  margin-bottom: 1em;
+  padding: 1em;
   color: #071013;
   display: flex;
   flex-direction: column;
@@ -664,12 +663,11 @@ nav.navbar.scrolled .nav-links {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 2em;
-  margin: auto;
-  font-size: 1.2em;
+  padding: 1em .5em 1em .5em;
   line-height: 2em;
   text-align: center;
   border-radius: 0em;
+  width: fit-content;
   background-color: #f1edee;
   color: #071013;
   box-shadow: 0 0 1em #f1edee;
@@ -683,20 +681,15 @@ nav.navbar.scrolled .nav-links {
   width: 40vmax;
 }
 
-.why-row * {
-  margin: 0.5em;
-}
-
 .why-text {
   line-height: 1.5em;
 }
 
 .why-text h4{
-  font-size: 3vmax;
+  font-size: 4vmax;
   padding-bottom: .5em;
   border-bottom: .3em dotted #C42021;
 }
-
 
 .why-text p{
   font-size: 2vmax;
@@ -705,7 +698,6 @@ nav.navbar.scrolled .nav-links {
 .who-block {
   display: flex;
   flex-direction: column;
-  margin: auto;
   padding: 2em 0em 2em 0em;
   justify-content: space-between;
   align-items: center;
@@ -719,14 +711,13 @@ nav.navbar.scrolled .nav-links {
   font-size: 4vmax;
 }
 
-
 .who-row {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 1em;
-  padding: 1em;
-  width: 80%;
+  padding: 1em 0 1em 0;
+  width: fit-content;
   text-align: center;
   border-radius: 1em;
   background-color: #cecece;
@@ -827,6 +818,8 @@ nav.navbar.scrolled .nav-links {
   padding: 1em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: fit-content;
   align-items: center;
   text-align: center;
 }
@@ -849,21 +842,22 @@ nav.navbar.scrolled .nav-links {
   align-content: center;
   align-items: center;
   padding: 1em;
-  margin: 1em;
+  margin: 1em; 
   border-radius: 1em;
   box-shadow: 0 0 0.5em #071013;
 }
 
 .support-card .star-banner{
   margin: 1em 1em 0em 1em;
+  padding: .5em;
 }
 
 .support-card section{
   background-color: #f1edee;
   color: #071013;
   border-radius: .5em;
-  margin: 2em 1em 1em 1em;
-  padding: 1em;
+  margin: 1em .25em 1em .25em;
+  padding: .25em;
 }
 
 .support-card section p{
