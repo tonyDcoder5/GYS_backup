@@ -915,22 +915,16 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2em;
-  margin: 1em;
+  padding: 1em;
   background-color: #cecece;
   color: #071013;
-  border-radius: 2em;
+  border-radius: 1em;
   box-shadow: 0 0 0.5em #071013;
 }
 
-.urgent-resources h3 {
-  margin: 0.5em 0 .5em 0;
-  font-size: 15vmax;
-}
-
 .urgent-resources .star-banner{
-  margin: .5em 1em 1em 1em;
-  padding: 1.5em;
+  margin: 0em 1em 1em 1em;
+  padding: 1em;
 }
 
 .urgent-resources .star-banner span{
@@ -941,7 +935,7 @@ nav.navbar.scrolled .nav-links {
   text-align: center;
   background-color: #036;
   width: 100%;
-  padding: 3vmax;
+  padding: 1em;
   border-radius: 0em;
   box-shadow: 0 0 0.5em #071013;
 }
@@ -952,7 +946,7 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   justify-content: space-between;
   background-color: #f1edee;
-  padding: 2em;
+  padding: 1em .25em 1em .25em;
   border-radius: .5em;
   box-shadow: 0 0 0.5em #f1edee;
 }
@@ -1035,8 +1029,8 @@ nav.navbar.scrolled .nav-links {
 }
 
 .local-support-block {
-  padding: 2em;
-  margin: 1em;
+  padding: 1em 0 1em 0;
+  margin: 1em 0 0 0;
   background-color: #036;
   color: #f1edee;
   display: flex;
@@ -1058,18 +1052,17 @@ nav.navbar.scrolled .nav-links {
   font-size: 5vmax;
 }
 
-.local-support-block h3{
-  font-size: 3.5vmax;
-}
-
 .local-support-block section{  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2em 1em 2em 1em;
+  margin: 1em;
 }
 
+.local-support-block section h3{
+  font-size: 6vmax;
+}
 
 .local-support-block .local-counseling{
   display: flex;
@@ -1082,15 +1075,11 @@ nav.navbar.scrolled .nav-links {
   justify-content: space-evenly;
 }
 
-
-
 .contact-list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: #071013;
-  margin: 3vmax;
-  padding: 2vmax;
+  color: #071013; 
 }
 
 @media screen and (max-width: 600px) {
@@ -1145,8 +1134,7 @@ nav.navbar.scrolled .nav-links {
   justify-content: space-evenly;
   width: fit-content;
   align-self: center;
-  margin: 1em;
-  padding: 0.5em;
+  margin: 1em 0 1em 0;
   border-radius: .5em;
   background-color: #cecece;
   color: #071013;
@@ -1158,13 +1146,12 @@ nav.navbar.scrolled .nav-links {
   }
 }
 
-.contact-line h4{
-  font-size: 3vmax;  
+.contact-brand h4{
+  font-size: 5vmax;  
 }
 
-
-.contact-line p{
-  font-size: 2vmax;
+.contact-info p{
+  font-size: 3vmax;
 }
 
 .local-orgsite {
@@ -1209,9 +1196,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 /* DOWNLOADS COMPONENT STYLES */
-.downloads {
-  margin: 1em;
-}
+
 
 .downloadables-block {
   display: flex;
@@ -1220,11 +1205,11 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   background-color: #cecece;
   padding: 2em;
-  margin: 2em 0 2em 0;
+  margin: 1em 0 1em 0;
   text-align: center;
-  border-radius: 2em;
+  border-radius: 1em;
   color: #071013;
-  box-shadow: 0em 0em 1em #071013;
+  box-shadow: 0em 0em .5em #071013;
 }
 
 .downloadables-block .star-banner{
@@ -1236,7 +1221,6 @@ nav.navbar.scrolled .nav-links {
 }
 
 .downloadables-block h4 {
-  margin-bottom: .5em;
   font-size: 6vmax;
 }
 
@@ -1244,7 +1228,6 @@ nav.navbar.scrolled .nav-links {
 .downloadables {
   display: flex;
   justify-content: space-evenly;
-  padding: 1em;
 }
 
 @media screen and (max-width: 600px) {
@@ -1261,9 +1244,9 @@ nav.navbar.scrolled .nav-links {
   background-color: #036;
   color: #071013;
   border-radius: 1em;
-  padding: 2em;
-  margin: 2em 0 2em 0;
-  box-shadow: 0 0 1em #071013;
+  padding: 1em;
+  margin: 1em 0 1em 0;
+  box-shadow: 0 0 .5em #071013;
 }
 
 .download span {

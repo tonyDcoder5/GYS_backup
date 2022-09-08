@@ -11,6 +11,7 @@ export default function UrgentSupport({ contacts = [] }) {
 
   return (
     <div className="resource-block urgent-resources">
+      
       <StarBanner />
       <div className="support-card-urgent">
         <div className="urgent-contact">

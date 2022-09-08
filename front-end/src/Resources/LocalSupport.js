@@ -49,7 +49,7 @@ export default function LocalSupport({ contacts = [] }) {
                 key={idx}
                 className="contact-line"
               >
-                <div>
+                <div className="contact-brand">
                   <h4>{contact.contact_org_name}</h4>
                   <img
                     key={contact.contact_id}
@@ -57,7 +57,7 @@ export default function LocalSupport({ contacts = [] }) {
                     width={"50%"}
                   />
                 </div>
-                <div>
+                <div className="contact-info">
                 <p>{contact.contact_desc}</p>
                 <Button className="local-orgsite">
                   <a href={contact.orgUrl} target="_blank">Website</a>
@@ -79,7 +79,7 @@ export default function LocalSupport({ contacts = [] }) {
                 key={idx}
                 className="contact-line"
               >
-                <div>
+                <div className="contact-brand">
                   <h4>{contact.contact_org_name}</h4>
                   <img
                     key={contact.contact_id}
@@ -87,7 +87,7 @@ export default function LocalSupport({ contacts = [] }) {
                     width={"50%"}
                   />
                 </div>
-                <div>
+                <div className="contact-info">
                 <p>{contact.contact_desc}</p>
                 <Button className="local-orgsite">
                   <a href={contact.orgUrl} target="_blank">Website</a>
