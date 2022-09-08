@@ -7,7 +7,9 @@ export default function FAQs({ data = [] }) {
   // data holds FAQs page content
   console.log(data);
 
-  const recent_faqs = [...data] || [
+  let faqs = data.filter((post)=> post.post_subtext.includes("faq-post"));
+
+  const recent_faqs = [...faqs] || [
     {
       post_id: 0,
       post_title: "Content loading",
@@ -20,7 +22,7 @@ export default function FAQs({ data = [] }) {
 
   return (
     <div className="faqs">
-        <h2>Most recent faqs</h2>
+        <h2>Frequently Asked Questions</h2>
         <StarBanner />
         <div className="recent-faqs">
           <Accordion defaultActiveKey="0" flush>

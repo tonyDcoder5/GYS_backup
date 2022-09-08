@@ -15,7 +15,8 @@ export default function FAQPage() {
       try{
         const abortController = new AbortController();
         const response = await listPosts(abortController.signal);
-        setFaqs(response)
+        let data = response.filter((post)=> post.post_subtext.includes("faq-post"));
+        setFaqs(data);
         
       } catch (error){
         setFAQSerror(error)
