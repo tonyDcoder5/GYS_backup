@@ -5,7 +5,7 @@ import StarBanner from "../components/StarBanner";
 import ShopBanner from "../Shop/ShopBanner";
 
 export default function Mission({ prompts }) {
-  const flag = require("../assets/img/flag-gif.gif");
+  const flag = "https://1.bp.blogspot.com/-YW-zCeJaST0/YEa1KIncAPI/AAAAAAAA5Fs/MN7ZqlSZZpMWG-BVCMkBK7ZlyPGm4wdkwCLcBGAsYHQ/s0/Flag_of_the_United_States.gif";
 
   //TODO: create api call for specific prompts at each component for easier rendering
   const missionContent = prompts.find(
@@ -22,7 +22,7 @@ export default function Mission({ prompts }) {
     <div className="mission-sect" name="mission-sect">
       <div className="intro-animation">
         <img
-          src={require("../assets/img/intro-media.png")}
+          src={flag}
           alt="Waving flag gif"
           name="flag animation"
           id="intro-animation"
