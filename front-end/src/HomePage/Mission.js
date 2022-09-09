@@ -5,7 +5,7 @@ import StarBanner from "../components/StarBanner";
 import ShopBanner from "../Shop/ShopBanner";
 
 export default function Mission({ prompts }) {
-  const flag = "https://1.bp.blogspot.com/-YW-zCeJaST0/YEa1KIncAPI/AAAAAAAA5Fs/MN7ZqlSZZpMWG-BVCMkBK7ZlyPGm4wdkwCLcBGAsYHQ/s0/Flag_of_the_United_States.gif";
+  const flag = "https://acegif.com/wp-content/uploads/gifs/flag-america-usa-45.gif";
 
   //TODO: create api call for specific prompts at each component for easier rendering
   const missionContent = prompts.find(

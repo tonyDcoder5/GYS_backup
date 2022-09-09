@@ -460,10 +460,17 @@ nav.navbar.scrolled .nav-links {
 
 .intro-animation img {
   border-radius: 0;
-  width: 100%;
+  width: 30%;
   height: 100%; 
   margin: 1em;
   padding-bottom: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .intro-animation img{
+    width: 60%;
+  }
 }
 
 .intro-subhead {
