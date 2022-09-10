@@ -1831,7 +1831,12 @@ color: #f1edee;
   border: 0.25em solid #f1edee;
   border-radius: 1em;
   padding: 1em;
-  margin: 1em 0 0.5em 0;
+  margin: 1em 0 1em 0;
+}
+
+.shop-banner-content a{
+  color: #f1edee;
+  text-decoration: none;
 }
 
 .shop-banner-content p {
@@ -1903,7 +1908,7 @@ color: #f1edee;
   align-items: center;
   text-align: center;
   width: 100%;
-  padding: 1em;
+  padding: .5em;
   color: #071013;
   background-color: #036;
   box-shadow: 0 0 0.5em #071013;
@@ -1917,6 +1922,8 @@ color: #f1edee;
   border-radius: 1em;
   width: 100%;
   text-align: center;
+  padding: 1em 0.25em 1em 0.25em;
+
   background-color: #cecece;
 }
 
@@ -1930,9 +1937,6 @@ color: #f1edee;
   }
   .shop-header-content {
     flex-direction: column;
-  }
-  .shop-header-content * {
-    margin: 0.5em;
   }
 }
 
@@ -1966,10 +1970,11 @@ color: #f1edee;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: .5em;
 }
 
 .shop-text h4 {
-  font-size: 3vmax;
+  font-size: 3.5vmax;
 }
 
 .shop-text p {
