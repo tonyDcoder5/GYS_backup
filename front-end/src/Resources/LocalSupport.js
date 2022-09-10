@@ -103,7 +103,7 @@ export default function LocalSupport({ contacts = [] }) {
       <section className="local-hotlines">
         <h3>Local Support Hotlines</h3>
         <StarBanner />
-        <div className="contact-list">
+        <div className="contact-lislpist">
           <div className="contact-group">
             {localHotlines.map((contact, idx) => (
               <div
