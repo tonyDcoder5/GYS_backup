@@ -71,7 +71,7 @@
         "section_title": "Veterans",
         "section_text": "Monthly Events, educational resources, partnered perks, and much more to come for our heroes to get the help and support they need to effectively transition home from their service.",
         "section_subtext": "roadmap-block-1",
-        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_image": "https://cdn.pixabay.com/photo/2015/09/25/21/26/army-958204__480.jpg",
         "section_video": null
     },
     {
@@ -209,7 +209,7 @@
         "section_subtitle": null,
         "section_text": "support card text 3 -DB",
         "section_subtext": "support-3-text",
-        "section_image": null,
+        "section_image": "../assets/img/shirts/gys-story-shirt-gray-front.jpeg",
         "section_video": null,
         "section_link": null
     },
@@ -231,29 +231,51 @@
         "section_subtitle": "Follow us on FB and IG for updates",
         "section_text": "Premium American-Made shirts and caps by Bayside America for sale soon, all proceeds will help us in our mission to provide our veterans the mental health services and support they need, for as long as they need to feel at home again.",
         "section_subtext": "shop-header-text",
-        "section_image": ["../assets/img/shirts/gys-shirt-model-blue-1.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"],
+        "section_image": "../assets/img/shirts/gys-shirt-model-blue-logo-front.jpeg",
         "section_video": null,
         "section_link": "https://www.astsportswear.com/homepage"
     },
     {
         "user_id": 1,
         "section_name": "shop-shirt-info-1",
-        "section_title": "Standard Gray GYS",
+        "section_title": "Standard Gray Logo",
         "section_subtitle": null,
         "section_text": "Size info chart, materials, and care information",
-        "section_subtext": "standard-gray-1",
-        "section_image": ["../assets/img/shirts/gys-shirt-model-gray-1.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"],
+        "section_subtext": "standard-gray-logo",
+        "section_image": "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg",
         "section_video": null,
         "section_link": "#"
     },
     {
         "user_id": 1,
-        "section_name": "shop-shirt-info-1",
-        "section_title": "Standard Blue GYS",
+        "section_name": "shop-shirt-info-2",
+        "section_title": "Standard Blue Logo",
         "section_subtitle": null,
         "section_text": "Size info chart, materials, and care information",
-        "section_subtext": "standard-blue-1",
-        "section_image": ["../assets/img/shirts/gys-shirt-model-blue-1.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"],
+        "section_subtext": "standard-blue-logo",
+        "section_image": "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg",
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-info-3",
+        "section_title": "Story Shirt Blue",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "story-shirt-blue",
+        "section_image": "../assets/img/shirts/gys-story-shirt-blue.jpeg",
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-info-4",
+        "section_title": "Story Shirt Gray",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "story-shirt-gray",
+        "section_image": "../assets/img/shirts/gys-story-shirt-gray.jpeg",
         "section_video": null,
         "section_link": "#"
     },
@@ -264,7 +286,7 @@
         "section_subtitle": null,
         "section_text": "Follow us on FB and IG for more info, shirts will be available for purchase online and at our in-person events soon.",
         "section_subtext": "shirt-purchase-prompt",
-        "section_image": "../assets/img/GYS_logo.jpg",
+        "section_image": "../assets/img/shirts/gys-shirt-model-blue-logo-back.jpeg",
         "section_video": null,
         "section_link": "#"
     },

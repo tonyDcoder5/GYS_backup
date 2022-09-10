@@ -3,6 +3,8 @@ import React from "react";
 export default function Roadmap({ prompts }) {
   const roadmapPrompts = [...prompts];
 
+  let logo = "../assets/img/GYS_logo.jpg";
+
   return (
     <div className="roadmap-sect">
       {roadmapPrompts ? (

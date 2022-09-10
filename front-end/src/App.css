@@ -174,12 +174,6 @@ html{
   font-size: 4vmax;
 }
 
-@media screen and (max-width: 600px) {
-  .star-banner{
-    width: fit-content;
-  }
-}
-
 .header-banner {
   background-color: rgb(0, 61, 121);
   color: #f1edee;
@@ -290,12 +284,11 @@ nav.navbar.scrolled {
   margin: auto;
   z-index: 9999;
   transition: 0.5 ease;
-  padding: 1em 1em 1em 1em;
-  line-height: .5em;
+  line-height: .4em;
   text-align: center;
   background-color: #cececed4;
   border-radius: 5em;
-  box-shadow: 0.1em 0.1em .5em #071013;
+  box-shadow: 0em 0em .5em #071013;
 }
 
 nav.navbar.scrolled .nav-links {
@@ -311,11 +304,10 @@ nav.navbar.scrolled .nav-links {
 }
 
 .scroll-brand h3 {
-  font-size: 3vmax;
+  font-size: 4vmax;
 }
 
 .scroll-brand a {
-  margin-top: .5em;
   text-decoration: none;
   color: #036;
 }
@@ -326,10 +318,10 @@ nav.navbar.scrolled .nav-links {
 }
 
 .scroll-brand img {
-  width: 10em;
+  width: 8em;
   border-radius: 10em;
   box-shadow: 0 0.25em 1em #071013;
-  margin-right: 0.5em;
+  margin: 0em 1em 1em 0em;
 }
 
 
@@ -460,7 +452,7 @@ nav.navbar.scrolled .nav-links {
 
 .intro-animation img {
   border-radius: 0;
-  width: 30%;
+  width: 40%;
   height: 100%; 
   margin: 1em;
   padding-bottom: 1em;
@@ -634,8 +626,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .roadmap-block p{
-  font-size: 2.5vmax;
-  padding: 2em;
+  font-size: 3vmax;
 }
 
 /* ABOUT PAGE STYLES */
@@ -1678,7 +1669,7 @@ nav.navbar.scrolled .nav-links {
   border-radius: 1em;
   margin: 2em 0 1em 0;
   overflow-y: scroll;
-  height: 40vmax;
+  height: 70vmax;
 }
 
 .events a{
@@ -1786,6 +1777,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .shop-banner-content div{
+  width: 30%;
   margin: 1em;
 }
 
@@ -1824,8 +1816,7 @@ nav.navbar.scrolled .nav-links {
   margin: 1em 0 1em 0;
   border-radius: 2em;
   box-shadow: 0em 0em 1em #071013;
-  display: flex;
-  justify-content: space-between;
+  
 }
 
 .shop-header h3 {
@@ -1852,6 +1843,9 @@ nav.navbar.scrolled .nav-links {
 
 .shop-header img{
   width: 25vmax;
+  border-radius: 20em;
+  box-shadow: 0 0 0.2em #f1edee;
+
 }
 
 .shop-block {
@@ -1870,8 +1864,11 @@ nav.navbar.scrolled .nav-links {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  justify-items: center;
   box-shadow: 0 0 1em #071013;
   border-radius: 1em;
+  width: 100%;
   text-align: center;
   background-color: #cecece; 
 }
@@ -1898,7 +1895,7 @@ nav.navbar.scrolled .nav-links {
 
 .shop-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   justify-items: center;
   width: auto;
@@ -1918,12 +1915,19 @@ nav.navbar.scrolled .nav-links {
 .supplier-logos{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-items: center;
   width: 80%;
 }
 
-.supplier-logos img{
+
+.shop-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
+
 
 .shop-text h4{
   font-size: 3vmax;
@@ -1938,7 +1942,7 @@ nav.navbar.scrolled .nav-links {
   background-color: #5d737d;
   border: 0.25em solid #036;
   padding: .5em;
-  font-size: 3em;
+  font-size: 1em;
   border-radius: .25em;
 }
 
@@ -1965,9 +1969,10 @@ nav.navbar.scrolled .nav-links {
   flex-direction: column;
   background-color: #cecece;
   color: #071013;
-  padding: 2em;
-  margin: 1em 1em 2em 1em;
+  padding: 1em;
+  margin: 1em 1em 1em 1em;
   border-radius: 0em;
+  width: 100%;
   box-shadow: 0em 0em 0.5em #f1edee;
   justify-content: center;
   align-items: center;
@@ -1983,17 +1988,22 @@ nav.navbar.scrolled .nav-links {
 
 .shirt-content {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 0.5em;
   background-color: #f1edee;
   box-shadow: 0 0 0.25em #071013;
-  padding: 1.5em;
+  padding: 1em;
   margin: 1em;
   color: #071013;
   text-align: center;
-  width: fit-content;
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .shirt-content{
+    flex-direction: column;
+  }
 }
 
 .shirt-content h3 {
@@ -2007,7 +2017,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .shirt-content img {
-  width: 100%;
+  width: 50%;
   border-radius: .25em;
 }
 
@@ -2067,7 +2077,7 @@ nav.navbar.scrolled .nav-links {
 
 /* CONTACT PAGE */
 
-.contact {
+.contact-form {
   margin: 1em;
   display: flex;
   flex-direction: column;
@@ -2077,6 +2087,14 @@ nav.navbar.scrolled .nav-links {
   color: #071013;
 }
 
+.contact-bx .form-label{
+  font-size: 4vmax;
+}
+
+.contact-bx .form-control{
+  font-size: 3vmax;
+  text-align: center;
+}
 
 .send-notice {
   border: 0.25em solid #f1edee;
@@ -2089,10 +2107,10 @@ nav.navbar.scrolled .nav-links {
 }
 
 .contact-bx {
-  padding: 3em;
+  padding: 2em;
   color: #071013;
   background-color: #036;
-  border-radius: 2em;
+  border-radius: .5em;
   box-shadow: 0 0 0.5em #071013;
   display: flex;
   flex-direction: column;
@@ -2102,17 +2120,19 @@ nav.navbar.scrolled .nav-links {
 
 .contact-bx h2 {
   color: #f1edee;
-  font-size: 5vmin;
-  margin-bottom: 1em;
+  font-size: 6vmax;
+  margin-bottom: .25em;
 }
 
 .contact-bx .col {
   padding: 2em;
-  margin: 1em 0 2em 0;
+  margin: 1em 2em 1em 2em;
   background-color: #cecece;
   border-radius: 0em;
   box-shadow: 0 0 0.2em #f1edee;
 }
+
+
 
 .contact-bx button {
   width: 40%;

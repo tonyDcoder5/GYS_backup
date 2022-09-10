@@ -18,7 +18,15 @@ export default function ShopBlock({ prompts = [] }) {
     prompt.section_name.includes("supplier")
   );
 
-  console.log(shirtPrompts, purchasePrompt, supplierPrompts);
+  let blueLogoShirts = [ "../assets/img/shirts/gys-shirt-model-blue-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"];
+
+  let blueStoryShirts = ["../assets/img/shirts/gys-story-shirt-blue.jpeg", "../assets/img/shirts/gys-story-shirt-blue-front.jpeg", "../assets/img/shirts/gys-story-shirt-blue-back.jpeg"];
+
+  let grayLogoShirts = ["../assets/img/shirts/gys-shirt-model-gray-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"];
+
+  let grayStoryShirts = ["../assets/img/shirts/gys-story-shirt-gray.jpeg", "../assets/img/shirts/gys-story-shirt-gray-front.jpeg", "../assets/img/shirts/gys-story-shirt-gray-back.jpeg"];
+
+  let shirtPics = [require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg")];
 
   const [showDetails, setShowDetails] = useState(false);
   const [shirtDetails, setShirtDetails] = useState(null);
@@ -61,8 +69,7 @@ export default function ShopBlock({ prompts = [] }) {
               return (
                 <Col className="shirt-content" key={idx}>
                     <img
-                      src={require("../assets/img/shirts/gys-shirt-model-gray-1.jpeg")}
-                      width={"25%"}
+                      src={shirtPics[idx]}
                       alt={shirt?.section_subtext}
                     />
                     <span className="shirt-text">
@@ -76,7 +83,8 @@ export default function ShopBlock({ prompts = [] }) {
                       {shirtDetails === idx && showDetails ? (
                         <>
                           <h3>{shirt?.section_title}</h3>
-                          <h5>{shirt?.section_subtitle}</h5>
+                          <h5>{shirt?.section_text}</h5>
+                          <button className="btn shirt-detail-btn"><a href={shirt?.section_link}>Button</a></button>
                         </>
                       ) : null}
                     </span>

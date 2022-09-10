@@ -48,7 +48,7 @@ export default function Contact() {
     }
   };
   return (
-    <div className="contact" id="contact">
+    <div className="contact-form" id="contact">
       <div className="contact-bx">
         <Form ref={form} onSubmit={sendEmail}>
           <Row>
@@ -79,7 +79,12 @@ export default function Contact() {
           <Row>
             <Form.Group as={Col}>
               <Form.Label htmlFor="messageInput">Message</Form.Label>
-              <Form.Control value={form.message} type="text" name="message" />
+              <Form.Control 
+              value={form.message} 
+              type="text" 
+              as="textarea"
+              rows={5}
+              name="message" />
             </Form.Group>
           </Row>
           <Button variant="primary" type="submit" name="contact-send-btn">

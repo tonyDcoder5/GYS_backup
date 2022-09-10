@@ -2,7 +2,7 @@ import React from "react";
 import StarBanner from "../components/StarBanner";
 
 export default function ShopHeader({ prompts = [] }) {
-  // console.log(prompts);
+  console.log(prompts);
 
   return (
     <div className="shop-header">
@@ -10,7 +10,7 @@ export default function ShopHeader({ prompts = [] }) {
       <div className="shop-header-content">
       <div>
         <img
-          src={require("../assets/img/shirts/gys-shirt-model-blue-1.jpeg")}
+          src={require("../assets/img/GYS_logo.jpg")}
           alt="GYS Shirt-Model-Blue"
         />
       </div>
@@ -22,6 +22,12 @@ export default function ShopHeader({ prompts = [] }) {
 
           <p>{prompts[0]?.section_text}</p>
         </section>
+      </div>
+      <div>
+      <img
+          src={require("../assets/img/GYS_logo.jpg")}
+          alt="GYS Shirt-Model-Blue"
+        />
       </div>
       </div>
     </div>
