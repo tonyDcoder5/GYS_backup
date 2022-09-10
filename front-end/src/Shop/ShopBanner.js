@@ -22,8 +22,7 @@ export default function ShopBanner() {
           src={require("../assets/img/shirts/gys-story-shirt-blue-front.jpeg")}
           alt="GYS Shirt-Model-Blue"
         />
-         <h3>100% Amercian made tees, find our more below</h3>
-         <a href="/shop"><button className="btn">Read More</button></a>
+         <h3>Show your support with our 100% Amercian made tees</h3>
       </div>
       <div>
       <img
