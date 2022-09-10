@@ -1854,7 +1854,7 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   text-align: center;
   width: 100%;
-  padding: 1em;
+  padding: 2em;
   color: #071013;
   background-color: #036;
   box-shadow: 0 0 .5em #071013;
@@ -1942,7 +1942,7 @@ nav.navbar.scrolled .nav-links {
   background-color: #5d737d;
   border: 0.25em solid #036;
   padding: .5em;
-  font-size: 1em;
+  font-size: 2em;
   border-radius: .25em;
 }
 
@@ -2034,6 +2034,9 @@ nav.navbar.scrolled .nav-links {
 
 .shirt-detail-btn {
   background-color: #cecece;
+  font-size: 1.5em;
+  border-radius: .5em;
+  padding: .5em;
   border: 0.2em solid #036;
 }
 
