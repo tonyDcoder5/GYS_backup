@@ -12,13 +12,11 @@ export default function HomeLayout({prompts = []}) {
     const roadmapPrompts = prompts.filter((prompt)=> prompt.section_name.includes("roadmap"));
 
     return(
-        <div className="home">
             <div className="home-layout">
             <Mission prompts={missionPrompts} />
             <Roadmap prompts={roadmapPrompts} />
             <Events />
             </div>
-        </div>
 
     )
 }

@@ -6,6 +6,9 @@ import StarBanner from "../components/StarBanner";
 export default function LocalSupport({ contacts = [] }) {
   console.log(contacts);
 
+  const [showDetails, setShowDetails] = useState(false);
+  const [supportDetails, setSupportDetails] = useState(null);
+
   const contactsPage = [...contacts];
 
   const localCounseling = contacts?.filter(
@@ -71,6 +74,14 @@ export default function LocalSupport({ contacts = [] }) {
     require("../assets/img/logos/local-contacts/camaraderiefoundation-logo.png"),
   ];
 
+  const handleShow = (idx) => {
+    setSupportDetails(idx);
+    setShowDetails(true);
+    if (supportDetails === idx) {
+      setShowDetails(!showDetails);
+    }
+  };
+
   // const initialCard = {
   //   id: 0,
   //   orgName: "Click an Icon",
@@ -119,7 +130,7 @@ export default function LocalSupport({ contacts = [] }) {
             {localCounseling.map((contact, idx) => (
               <div
                 key={idx}
-                className="contact-line"
+                className="contact-line contact-line-counseling"
               >
                 <div className="contact-brand">
                   <h4>{contact.contact_org_name}</h4>
@@ -129,10 +140,16 @@ export default function LocalSupport({ contacts = [] }) {
                   />
                 </div>
                 <div className="contact-info">
+                <button  className="btn local-support-detail-btn"
+                        onClick={() => handleShow(idx)} >
+                          Show Details
+                          </button>
+                {showDetails && supportDetails === idx ? 
+                (<>
                 <p>{contact.contact_desc}</p>
                 <Button className="local-orgsite">
                   <a href={contact.orgUrl} target="_blank">Website</a>
-                </Button>
+                </Button> </>): null}
                 </div>
               </div>
             ))}
