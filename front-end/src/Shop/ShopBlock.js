@@ -114,7 +114,7 @@ export default function ShopBlock({ prompts = [] }) {
             <h4>{supplierPrompts[0]?.section_subtitle}</h4>
             <p>{supplierPrompts[0]?.section_text}</p>
             <button>
-              <a href={"#"} target="_blank">
+              <a href={"https://breakingfreeindustries.com/"} target="_blank">
                 Website
               </a>
             </button>
