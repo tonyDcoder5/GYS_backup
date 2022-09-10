@@ -66,7 +66,7 @@ export default function AboutUs({prompts = [] }) {
 
   return (
     <div className="about-us">
-      <div className="row why-block">
+      <div className="why-block">
         <h2>{prompts[0]?.section_title || i.section_title}</h2>
         <StarBanner />
         <div className="why-row">

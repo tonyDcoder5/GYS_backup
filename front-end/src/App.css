@@ -632,12 +632,15 @@ nav.navbar.scrolled .nav-links {
 /* ABOUT PAGE STYLES */
 
 .about{
-  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 1em 1em 1em;
 }
 
 .why-block {
-  margin-bottom: 1em;
   padding: 1em;
+  margin: 1em 0em 1em 0em;
   color: #071013;
   display: flex;
   flex-direction: column;
@@ -646,6 +649,7 @@ nav.navbar.scrolled .nav-links {
   text-align: center;
   background-color: #cecece;
   border-radius: 1em;
+  width: 100%;
   box-shadow: 0 0 .5em #071013;
 }
 
@@ -701,13 +705,13 @@ nav.navbar.scrolled .nav-links {
 .who-block {
   display: flex;
   flex-direction: column;
-  padding: 2em 0em 2em 0em;
+  padding: 1em 0 1em 0;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   background-color: #036;
   border-radius: 0em;
-  box-shadow: 0 0 1em #071013;
+  box-shadow: 0 0 .5em #071013;
 }
 
 .who-block h2{
@@ -730,11 +734,12 @@ nav.navbar.scrolled .nav-links {
 .who-row img {
   border-radius: .5em;
   width: 30vmax;
+  margin: 1em;
 }
 
-.who-row * {
+/* .who-row * {
   margin: 0.5em;
-}
+} */
 
 .who-text {
   margin: 1em;
@@ -781,6 +786,7 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   text-align: center;
   padding: 1em;
+  width: 100%;
   margin: 1em 0em 1em 0em;
   background-color: #cecece;
   border-radius: .5em;
@@ -1046,8 +1052,9 @@ nav.navbar.scrolled .nav-links {
 }
 
 .local-support-block .star-banner {
-  margin: 1em 0 1em 0;
-  padding: 1em;
+  margin: 1em;
+  padding: 1.5em;
+  width: auto;
 }
 
 .local-support-block .star-banner span{
@@ -1221,9 +1228,10 @@ nav.navbar.scrolled .nav-links {
   justify-content: center;
   align-items: center;
   background-color: #cecece;
-  padding: 1em 0 1em 0;
+  padding: 1em;
   margin: 1em 0 1em 0;
   text-align: center;
+  width: 100%;
   border-radius: 1em;
   color: #071013;
   box-shadow: 0em 0em .5em #071013;
@@ -1745,14 +1753,14 @@ nav.navbar.scrolled .nav-links {
   background-color: #cecece;
   color: #071013;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   margin: 1em 1em 1em 1em;
   border-radius: 2em;
   box-shadow: 0em 0em 1em #071013;
 }
 
 .shop-banner h3 {
-  font-size: 5vmin;
+  font-size: 5vmax;
 }
 
 .shop-banner-content{
@@ -1770,16 +1778,25 @@ nav.navbar.scrolled .nav-links {
   box-shadow: 0 0 0.25em #071013;
 }
 
-@media screen and (max-width: 600px) {
-  .shop-banner-content{
-    flex-direction: column;
-  }
-}
-
 .shop-banner-content div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
   margin: 1em;
 }
+
+@media screen and (max-width: 600px) {
+  .shop-banner-content{
+    flex-direction: column;
+    
+  }
+  .shop-banner-content div{
+    display:flex
+  }
+
+}
+
 
 .shop-banner-content button{
   color: #f1edee;
@@ -1797,6 +1814,7 @@ nav.navbar.scrolled .nav-links {
 
 .shop-banner img{
   width: 30vmax;
+  margin: 1em 0em 1em 0em;
 }
 
 .shop-layout {
@@ -1819,8 +1837,12 @@ nav.navbar.scrolled .nav-links {
   
 }
 
-.shop-header h3 {
-  font-size: 5vmin;
+.shop-header h2 {
+  font-size: 7vmax;
+}
+
+.shop-header h4 {
+  font-size: 5vmax;
 }
 
 .shop-header-content{
@@ -1838,7 +1860,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .shop-header-content p{
-  font-size: 2vmax;
+  font-size: 3vmax;
 }
 
 .shop-header img{
@@ -1868,17 +1890,14 @@ nav.navbar.scrolled .nav-links {
   justify-items: center;
   box-shadow: 0 0 1em #071013;
   border-radius: 1em;
+  padding: 1em 0 1em 0;
   width: 100%;
   text-align: center;
   background-color: #cecece; 
 }
 
-
-
 .shop-bx h2{
-  margin-top: 1em;
-  font-size: 8vmax;
-  width: 80%;
+  font-size: 7vmax;
 }
 
 @media screen and (max-width: 600px) {
@@ -1899,7 +1918,6 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   justify-items: center;
   width: auto;
-  margin: 2em 1em 2em 1em;
   line-height: 2em;
   text-align: center;
   color: #071013;
@@ -2007,7 +2025,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .shirt-content h3 {
-  font-size: 5vmax;
+  font-size: 6vmax;
 }
 
 .shirt-content span {
@@ -2035,7 +2053,7 @@ nav.navbar.scrolled .nav-links {
 
 .shirt-detail-btn {
   background-color: #cecece;
-  font-size: 1.5em;
+  font-size: 1em;
   border-radius: .5em;
   padding: .5em;
   border: 0.2em solid #036;
@@ -2082,12 +2100,11 @@ nav.navbar.scrolled .nav-links {
 /* CONTACT PAGE */
 
 .contact-form {
-  margin: 1em;
+  margin: 1.5em 0em 1em 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: large;
   color: #071013;
 }
 
@@ -2129,17 +2146,15 @@ nav.navbar.scrolled .nav-links {
 }
 
 .contact-bx .col {
-  padding: 2em;
+  padding: 1em;
   margin: 1em 2em 1em 2em;
   background-color: #cecece;
   border-radius: 0em;
   box-shadow: 0 0 0.2em #f1edee;
 }
 
-
-
 .contact-bx button {
-  width: 40%;
+  width: 50%;
   font-size: 1.5em;
   background-color: #cecece;
   color: #071013;
@@ -2236,11 +2251,19 @@ nav.navbar.scrolled .nav-links {
 
 .footer-socials span{
   margin: 1em 2em 1em 2em;
-  transform: scale(1.25);
+ width: 10em;
 }
 
 .footer-socials span:hover {
   transform: scale(3);
+}
+
+@media screen and (max-width: 600px) {
+  .footer-socials span{
+    margin: 1em .5em 1em .5em;
+   width: 5em;
+  }
+  
 }
 
 .footer-copy {
