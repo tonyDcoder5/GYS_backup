@@ -20,7 +20,7 @@ export default function AboutSupport({ prompts = [] }) {
           <Col key={prompt?.prompt_id}>
             <Card className="support-card">
               <img
-                src={require("../assets/img/GYS_logo.jpg")}
+                src={prompt?.section_image || require("../assets/img/shirts/gys-story-shirt-blue.jpeg")}
                 width={"50%"}
                 alt={prompt.title + "icon"}
               />

@@ -611,6 +611,12 @@ nav.navbar.scrolled .nav-links {
 .roadmap-block div img {
   align-self: center;
   width: 50%;
+  margin: 1em;
+  border-radius: .5em;
+}
+
+.roadmap-block div img:hover {
+  transform: scale(1.5);
 }
 
 .roadmap-block p {
@@ -1818,6 +1824,10 @@ color: #f1edee;
   margin: 1em 0em 1em 0em;
 }
 
+
+.shop-banner img:hover {
+  transform: scale(2);
+}
 .shop-layout {
   margin: 1em;
 }
