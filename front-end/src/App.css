@@ -2030,6 +2030,7 @@ nav.navbar.scrolled .nav-links {
   margin: 1em;
   padding: 1em;
   font-size: 1.25em;
+  width: 100%;
 }
 
 .shirt-detail-btn {
