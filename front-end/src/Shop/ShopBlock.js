@@ -26,7 +26,7 @@ export default function ShopBlock({ prompts = [] }) {
 
   let grayStoryShirts = ["../assets/img/shirts/gys-story-shirt-gray.jpeg", "../assets/img/shirts/gys-story-shirt-gray-front.jpeg", "../assets/img/shirts/gys-story-shirt-gray-back.jpeg"];
 
-  let shirtPics = [require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg")];
+  let shirtPics = [require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg")];
 
   const [showDetails, setShowDetails] = useState(false);
   const [shirtDetails, setShirtDetails] = useState(null);
