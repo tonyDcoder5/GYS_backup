@@ -29,7 +29,7 @@ export default function ShopBanner() {
           src={require("../assets/img/shirts/gys-story-shirt-blue-back.jpeg")}
           alt="GYS Shirt-Model-Blue"
         />
-         <h3>Get yours soon, contact for preorders!</h3>
+         <h3>Contact Us for more Info!</h3>
          <a href="/contact"><button className="btn">Contact</button></a>
       </div>
       </div>

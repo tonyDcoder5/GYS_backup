@@ -15,7 +15,7 @@
         "user_id": 1,
         "section_name": "mission-sect",
         "section_title": "GYS has our Heroes Backs",
-        "section_text": "At GYS, our vision is in our name, Got Your Six. We got your back. We got you. We got all of you. We are glad you are back home and want to show you how much we have your back. We will not let you become a statistic. We will not let you feel alone. We will not let you remain vulnerable. We want you to have the mental health services you need and deserve. We want you to feel like someone has your six when you need it, when you need it most.",
+        "section_text": "Golf Yankee Six is a movement dedicated to creating awareness of Veteran’s mental health and finding help for Veterans’ struggling with depression, PTSD, and suicide. GYS was created to encourage, educate, and invest directly into mental health services for our Veterans.",
         "section_subtext": "mission-sect-header",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -24,7 +24,7 @@
         "user_id": 1,
         "section_name": "mission-stats-1",
         "section_title": "3rd largest population",
-        "section_text": "Florida is the third largest population in the nation after California and Texas with roughly 1.5 million veterans.",
+        "section_text": "Florida is the third largest population in the nation after California and Texas with roughly 1.5 million Veterans.",
         "section_subtext": "mission-stats-1",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -33,7 +33,7 @@
         "user_id": 1,
         "section_name": "mission-stats-2",
         "section_title": "6th largest Active Duty military population",
-        "section_text": "69,000 active duty military personally reside in Florida, the 6th largest population in the nation",
+        "section_text": "69,000 active duty military personally reside in Florida, the 6th largest population in the nation.",
         "section_subtext": "mission-stats-2",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -42,7 +42,7 @@
         "user_id": 1,
         "section_name": "mission-stats-3",
         "section_title": "Veteran most common concerns",
-        "section_text": "The three most common mental health concerns for veterans are Post-Traumatic Stress Disorder (PTSD), depression and Traumatic Brain Injury (TBI).",
+        "section_text": "The three most common mental health concerns for Veterans are Post-Traumatic Stress Disorder (PTSD), depression and Traumatic Brain Injury (TBI).",
         "section_subtext": "mission-stats-3",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -60,7 +60,7 @@
         "user_id": 1,
         "section_name": "roadmap-sect-header",
         "section_title": "The GYS Roadmap",
-        "section_text": "GYS is here to serve our service members by supporting them, their families, & friends with tools & resources to assist in transitioning our heroes home",
+        "section_text": "GYS is here to serve our service members by supporting them, their families, and friends with tools and resources to assist in transitioning our heroes home",
         "section_subtext": "mission-sect-header",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -77,8 +77,8 @@
     {
         "user_id": 1,
         "section_name": "roadmap-block-2",
-        "section_title": "Families & Friends",
-        "section_text": "Our greatest allies in successfully helping truly make our heroes feel at home again, we will provide tools and resources in order to help navigate the process of supporting a veteran in need.",
+        "section_title": "Families and Friends",
+        "section_text": "Our greatest allies in successfully helping truly make our heroes feel at home again. We will provide tools and resources in order to help you navigate the process of supporting a Veteran in need.",
         "section_subtext": "roadmap-block-2",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -86,8 +86,8 @@
     {
         "user_id": 1,
         "section_name": "roadmap-block-3",
-        "section_title": "Community & Advocacy",
-        "section_text": "GYS wants to help veterans know our mission begins when theirs' ends. With every shirt or product purchase, you can help raise awareness of Veterans mental health while empowering our local community to be armed with the knowledge, compassion, and courage to complete our mission, to save veteran lives. By these purchases on our website or at our local pop-ups, you can help us invest directly into mental health services for our veterans.",
+        "section_title": "Community and Advocacy",
+        "section_text": "GYS wants to mobilize community members to participate in helping Veterans address their war within when they come back home. We want Veterans to see the size of our team when they look around the room and see Golf Yankee Six shirts. We want them to see shirts in the grocery store, at their local breweries, and where they receive mental health services. By purchasing our shirts, you can help us invest directly into the mental health services our Veterans deserve.",
         "section_subtext": "roadmap-block-3",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null
@@ -97,7 +97,7 @@
         "section_name": "why-block",
         "section_title": "Why GYS?",
         "section_subtitle": "To SAY and SHOW, we Golf Yankee Six.",
-        "section_text": "Golf Yankee Six is a movement dedicated to creating awareness of veteran’s mental health and finding help for veterans’ struggling with depression, PTSD, and suicide in Orlando, Florida. We started to encourage, educate, and invest directly into mental health services for our veterans. Use your voice to start a conversation, create hope, and show your support for our veterans. If you want to support our mission, you can get involved by following us on Facebook & Instagram, attending our events, buying our American-made merchandise, or sharing resources from our website with a loved one.",
+        "section_text": "Golf Yankee Six is a movement dedicated to creating awareness of Veteran’s mental health and finding help for Veterans’ struggling with depression, PTSD, and suicide in Orlando, Florida. We started to encourage, educate, and invest directly into mental health services for our Veterans. Use your voice to start a conversation, create hope, and show your support for our Veterans. If you want to support our mission, you can get involved by following us on Facebook and Instagram, attending our events, buying our American-made merchandise, or sharing resources from our website with a loved one.",
         "section_subtext": "why-block-header",
         "section_image": "../assets/img/GYS_logo.jpg",
         "section_video": null,
@@ -108,7 +108,7 @@
         "section_name": "who-block",
         "section_title": "Who are we?",
         "section_subtitle": "Meet the Founders!",
-        "section_text": "We are two women with a goal to change the mental health world, specifically for our service men and women. As mental health practitioners, with 30 years combined experience and 15 years of friendship, we knew we could make a difference. We specialize in trauma, Post-traumatic Stress Disorder, and veterans returning from combat. We have a specific passion to change the lives of our veterans, one soldier at a time. What they see and experience is our motivation to never give up on them. Ever.",
+        "section_text": "We are two women with a goal to change the mental health world, specifically for our service men and women. As mental health practitioners, with 30 years combined experience and 15 years of friendship, we knew we could make a difference. We specialize in trauma, Post-traumatic Stress Disorder, and Veterans returning from combat. We have a specific passion to change the lives of our Veterans, one soldier at a time. What they see and experience is our motivation to never give up on them. Ever.",
         "section_subtext": "who-block-text",
         "section_image": null,
         "section_video": null,
@@ -216,7 +216,7 @@
     {
         "user_id": 1,
         "section_name": "support-card-4",
-        "section_title": "Come to our events and meet the community! More details coming soon, follow us on Facebook & Instagram for updates",
+        "section_title": "Come to our events and meet the community! More details coming soon, follow us on Facebook and Instagram for updates",
         "section_subtitle": null,
         "section_text": "support card text 4 -DB",
         "section_subtext": "support-4-text",
@@ -229,7 +229,7 @@
         "section_name": "shop-header",
         "section_title": "GYS Merch Coming Soon!",
         "section_subtitle": "Follow us on FB and IG for updates",
-        "section_text": "Premium American-Made shirts and caps by Bayside America for sale soon, all proceeds will help us in our mission to provide our veterans the mental health services and support they need, for as long as they need to feel at home again.",
+        "section_text": "The phrase 'Got Your Six' comes from a story of loyalty and that I have you covered, covered from the enemies coming from behind you. That is exactly what we owe our Veterans, our loyalty, support of the unexpected, and safety. I hope you will be able to join us in our passion and saving the lives of our Veterans. ",
         "section_subtext": "shop-header-text",
         "section_image": "../assets/img/shirts/gys-shirt-model-blue-logo-front.jpeg",
         "section_video": null,

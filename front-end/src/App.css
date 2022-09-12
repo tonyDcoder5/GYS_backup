@@ -1047,7 +1047,7 @@ nav.navbar.scrolled .nav-links {
 
 .local-support-block .star-banner {
   margin: 1em;
-  padding: 1.5em;
+  padding: 1.25em;
   width: 100%;
 }
 
@@ -1096,8 +1096,10 @@ nav.navbar.scrolled .nav-links {
 .contact-group {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #cecece;
   border-radius: 1em;
+  padding: 1em;
   width: 100%;
   overflow-y: auto;
   height: 100vmax;
@@ -1154,7 +1156,7 @@ nav.navbar.scrolled .nav-links {
   justify-items: center;
   align-content: center;
   width: 100%;
-  margin: 1em 0 1em 0;
+  margin: .5em 0 .5em 0;
   border-radius: 0.5em;
   background-color: #cecece;
   color: #071013;
@@ -1172,8 +1174,9 @@ nav.navbar.scrolled .nav-links {
 }
 
 .contact-brand h4 {
-  font-size: 5vmax;
+  font-size: 4vmax;
 }
+
 .local-support-detail-btn{
 background-color: #f1edee;
 font-size: 1em;
@@ -1189,14 +1192,14 @@ color: #f1edee;
 }
 
 .contact-group *{
-  margin: .5em 0 .5em 0;
+  margin: .5em 0 .25em 0;
 }
 
 .contact-info p {
-  font-size: 4vmax;
+  font-size: 3vmax;
 }
 
-.local-hotlines .contact-giline {
+.local-hotlines .contact-line {
   display: flex;
   justify-content: space-between;
   width: 100%;
