@@ -82,7 +82,14 @@ box-shadow: 0 0 1em #071013;
 /* GENERAL PAGE STYLES */
 
 html {
-  zoom: 65%;
+  zoom: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  html{
+    zoom: 55%;
+  }
+  
 }
 
 * h1,
