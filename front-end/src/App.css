@@ -453,7 +453,7 @@ nav.navbar.scrolled .nav-links {
 
 .intro-animation img {
   border-radius: 0;
-  width: 40%;
+  width: 45%;
   height: 100%;
   margin: 1em;
   padding-bottom: 1em;
@@ -890,6 +890,11 @@ nav.navbar.scrolled .nav-links {
 .support-card section a:hover {
   text-decoration: dotted;
   color: #036;
+}
+
+.support-card img{
+  width: 50%;
+  margin: 1em 0 1em 0;
 }
 
 .support-block {

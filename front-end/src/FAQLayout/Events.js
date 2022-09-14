@@ -58,7 +58,7 @@ export default function Events() {
          
         </div>
         <h4 className="mt-3">
-            Follow us on <a href="https://www.facebook.com/" target="_blank">Facebook</a> or <a href="https://www.instagram.com/golfyankeesix" target="_blank">Instagram</a> for
+            Follow us on <a href="https://www.facebook.com/golfyankeesix/" target="_blank">Facebook</a> or <a href="https://www.instagram.com/golfyankeesix" target="_blank">Instagram</a> for
             more updates!
           </h4>
       </div>

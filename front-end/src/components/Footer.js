@@ -32,9 +32,8 @@ export default function Footer() {
       </div>
       <StarBanner />
       <div className="footer-socials">
-        {/* TODO: CREATE CUSTOM FACEBOOK URL */}
         <span>
-          <SocialIcon url="https://facebook.com/" target="_blank" /> 
+          <SocialIcon url="https://www.facebook.com/golfyankeesix/" target="_blank" /> 
         </span>
         <span>
           <SocialIcon

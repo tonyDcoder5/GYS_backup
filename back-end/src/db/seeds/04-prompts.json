@@ -183,11 +183,11 @@
     {
         "user_id": 1,
         "section_name": "support-card-1",
-        "section_title": "Follow us on IG and FB for updates",
+        "section_title": "Follow us on Instagram and Facebook for updates on everything we are up to",
         "section_subtitle": null,
         "section_text": "support card text 1 -DB",
         "section_subtext": "support-1-text",
-        "section_image": "https://thumbs.dreamstime.com/b/counter-friend-request-quantity-follower-notification-symbol-instagram-buton-social-media-counter-friend-request-quantity-136664238.jpg",
+        "section_image": "https://img.freepik.com/premium-vector/instagram-comment-notification-icon-with-transparent-background_539007-172.jpg",
         "section_video": null,
         "section_link": null
     },
@@ -295,7 +295,7 @@
         "section_name": "shop-shirt-supplier-prompt",
         "section_title": "Bayside America Tees",
         "section_subtitle": "An American company helping support the American people",
-        "section_text": "We only use 100% American made/manufactured/designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee - at https://usabayside.com/. Our shirts are printed by Breaking Free Industries https://breakingfreeindustries.com/ in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
+        "section_text": "We only use 100% American manufactured and designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee - at https://usabayside.com/. Our shirts are printed by Breaking Free Industries https://breakingfreeindustries.com/ in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
         "section_subtext": "shirt-purchase-prompt",
         "section_image": ["../assets/img/logos/Breaking_Free_Apparel_logo.png", "../assets/img/logos/Breaking_Free_Apparel_logo.png"],
         "section_video": null,

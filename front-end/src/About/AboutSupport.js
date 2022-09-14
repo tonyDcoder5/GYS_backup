@@ -21,7 +21,6 @@ export default function AboutSupport({ prompts = [] }) {
             <Card className="support-card">
               <img
                 src={prompt?.section_image || require("../assets/img/shirts/gys-story-shirt-blue.jpeg")}
-                width={"50%"}
                 alt={prompt.title + "icon"}
               />
               <StarBanner />
