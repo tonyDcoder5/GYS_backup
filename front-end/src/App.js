@@ -20,6 +20,7 @@ import FAQPage from "./FAQLayout/FAQPage";
 import ShopLayout from "./Shop/ShopLayout";
 
 export default function App() {
+  
   const [prompts,setPrompts] = useState([]);
   const [promptsError,setPromptsError] = useState(null)
  
@@ -42,7 +43,6 @@ export default function App() {
     <Router>
       <div className="body">
         <Banner />
-       
           <div> 
           <NavBar />
           {/* <Header /> */}
@@ -56,7 +56,6 @@ export default function App() {
             <Route exact path="/faqs/list" element={<FAQPage />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/shop" element={<ShopLayout prompts={prompts} />} />
-
             <Route path="/urgent-resources" element={<UrgentSupport/>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
