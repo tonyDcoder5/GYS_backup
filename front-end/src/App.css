@@ -2268,10 +2268,10 @@ color: #f1edee;
 }
 
 .footer-links a {
-  margin: 1em;
+  margin: 1em .25em 1em .25em;
   color: #cecece;
   text-decoration: none;
-  font-size: 3.5vmax;
+  font-size: 3vmax;
 }
 
 .footer-links a:hover {
