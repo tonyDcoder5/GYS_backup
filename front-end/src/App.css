@@ -374,7 +374,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .header-nav button {
-  font-size: 1em;
+  font-size: 4vmax;
   border-radius: 2em;
   box-shadow: 0 0.25em 1em #071013;
 }
