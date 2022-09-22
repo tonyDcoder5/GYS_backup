@@ -321,6 +321,10 @@ nav.navbar.scrolled .nav-links {
     margin: 1em 0em 2em 0em;
   }
 
+  nav.navbar.scrolled .nav-links *{
+    margin: 1em 0em 1em 0em;
+  }
+
 }
 
 .scroll-brand {
