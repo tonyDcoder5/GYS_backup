@@ -277,9 +277,15 @@ nav.navbar {
   transition: 0.32 ease-in-out;
 }
 
+.navbar-nav{
+  flex-direction: row;
+  margin: 1em 0em 2em 0em;
+}
+
 nav.navbar.scrolled {
   position: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   justify-items: center;
   justify-self: center;
@@ -293,12 +299,27 @@ nav.navbar.scrolled {
   line-height: 0.4em;
   text-align: center;
   background-color: #cececed4;
-  border-radius: 5em;
   box-shadow: 0em 0em 0.5em #071013;
 }
 
 nav.navbar.scrolled .nav-links {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  margin: 1.5em 0em 1em 0em;
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav.navbar.scrolled .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 .scroll-brand {
@@ -357,14 +378,14 @@ nav.navbar.scrolled .nav-links {
 }
 
 .nav-link {
-  margin-top: 0.5em;
+  margin: 0.25em 1em 0em 1em;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #036;
-  font-size: 2.5vmax;
-  padding: 1em;
+  font-size: 3vmax;
+  
 }
 
 .nav-links a:hover {
@@ -471,7 +492,6 @@ nav.navbar.scrolled .nav-links {
   align-items: center;
   box-shadow: 0 0 0.25em #071013;
   padding: 1em;
-  font-size: 1.25em;
   line-height: 2em;
   margin: 1em 0 0.5em 0;
   background-color: #f1edee;
@@ -485,7 +505,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .intro-subhead p {
-  font-size: 2.5vmax;
+  font-size: 3vmax;
   line-height: 2em;
 }
 
@@ -534,13 +554,13 @@ nav.navbar.scrolled .nav-links {
 }
 
 .mission-stats .col h3 {
-  font-size: 3vmax;
+  font-size: 5vmax;
   padding-bottom: 0.5em;
   border-bottom: 0.25em dotted #c42021;
 }
 
 .mission-stats .col p {
-  font-size: 2vmax;
+  font-size: 3.5vmax;
 }
 
 .mission-stats .btn {
@@ -627,7 +647,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .roadmap-block p {
-  font-size: 3vmax;
+  font-size: 3.5vmax;
 }
 
 /* ABOUT PAGE STYLES */
@@ -656,7 +676,7 @@ nav.navbar.scrolled .nav-links {
 
 .why-block h2 {
   margin: 0.25em 0 0 0;
-  font-size: 4vmax;
+  font-size: 5vmax;
   width: fit-content;
   align-self: center;
 }
@@ -693,13 +713,13 @@ nav.navbar.scrolled .nav-links {
 }
 
 .why-text h4 {
-  font-size: 4vmax;
+  font-size: 5vmax;
   padding-bottom: 0.5em;
   border-bottom: 0.3em dotted #c42021;
 }
 
 .why-text p {
-  font-size: 2vmax;
+  font-size: 3vmax;
 }
 
 .who-block {
@@ -716,6 +736,10 @@ nav.navbar.scrolled .nav-links {
 
 .who-block h2 {
   font-size: 4vmax;
+}
+
+.who-block p {
+  font-size: 3.5vmax;
 }
 
 .who-row {
@@ -750,21 +774,21 @@ nav.navbar.scrolled .nav-links {
 }
 
 .who-text p {
-  font-size: 2vmax;
+  font-size: 3vmax;
 }
 
 .who-text h6 {
-  font-size: 2vmax;
+  font-size: 3.5vmax;
   padding-bottom: 0.5em;
   border-bottom: 0.5em dotted #c42021;
 }
 
 .who-text h5 {
-  font-size: 2.5vmax;
+  font-size: 3.5vmax;
 }
 
 .who-text h4 {
-  font-size: 3vmax;
+  font-size: 5vmax;
 }
 
 @media screen and (max-width: 600px) {
@@ -964,16 +988,16 @@ nav.navbar.scrolled .nav-links {
 }
 
 .urgent-contact img {
-  width: 80%;
+  width: 65%;
 }
 
 .urgent-contact p {
-  font-size: 3vmax;
+  font-size: 3.5vmax;
   padding-bottom: 0.5em;
 }
 
 .urgent-contact h3 {
-  font-size: 4vmax;
+  font-size: 6vmax;
   padding-bottom: 0.5em;
   border-bottom: 0.3em dotted #c42021;
 }
@@ -985,7 +1009,7 @@ nav.navbar.scrolled .nav-links {
 }
 
 .support-btns-urgent strong {
-  font-size: 3vmax;
+  font-size: 5vmax;
   line-height: 1em;
 }
 
@@ -995,7 +1019,8 @@ nav.navbar.scrolled .nav-links {
 }
 
 .support-btns-urgent button {
-  margin-top: 2em;
+  margin-top: 1em;
+  font-size: 4vmax;
   padding: 0.5em;
   align-self: center;
 }
@@ -1191,7 +1216,7 @@ nav.navbar.scrolled .nav-links {
 
 .local-support-detail-btn{
 background-color: #f1edee;
-font-size: 1em;
+font-size: 3vmax;
 border-radius: 0.5em;
 padding: 0.5em;
 border: 0.2em solid #036;
@@ -1203,11 +1228,16 @@ box-shadow: 0 0 0.25em #071013;
 color: #f1edee;
 }
 
+
 .contact-group *{
   margin: .5em 0 .25em 0;
 }
 
 .contact-info p {
+  font-size: 3vmax;
+}
+
+.contact-info .local-orgsite{
   font-size: 3vmax;
 }
 
@@ -1327,7 +1357,7 @@ color: #f1edee;
 }
 
 .downloadables-block img {
-  width: 15vmax;
+  width: 35vmax;
 }
 
 .downloadables-block img:hover {
@@ -1703,12 +1733,12 @@ color: #f1edee;
   box-shadow: 0 0 0.5em #071013;
 }
 
-.events .row h4 {
-  font-size: 3vmax;
+.events h4 {
+  font-size: 5vmax;
 }
 
-.events .row p {
-  font-size: 2vmax;
+.events p {
+  font-size: 4vmax;
 }
 
 .events-block {
@@ -1855,7 +1885,7 @@ color: #f1edee;
 }
 
 .shop-banner-content p {
-  font-size: 2vmax;
+  font-size: 3.5vmax;
 }
 
 .shop-banner img {
@@ -1993,7 +2023,7 @@ color: #f1edee;
 }
 
 .shop-text p {
-  font-size: 2vmax;
+  font-size: 3vmax;
   line-height: 1.5em;
 }
 
@@ -2001,7 +2031,7 @@ color: #f1edee;
   background-color: #5d737d;
   border: 0.25em solid #036;
   padding: 0.5em;
-  font-size: 1.25em;
+  font-size: 4vmax;
   border-radius: 0.25em;
 }
 
@@ -2101,7 +2131,7 @@ color: #f1edee;
 
 .shirt-detail-btn {
   background-color: #cecece;
-  font-size: 1em;
+  font-size: 4vmax;
   border-radius: 0.5em;
   padding: 0.25em;
   border: 0.2em solid #036;
@@ -2203,7 +2233,7 @@ color: #f1edee;
 
 .contact-bx button {
   width: 50%;
-  font-size: 1.25em;
+  font-size: 4vmax;
   background-color: #cecece;
   color: #071013;
   border-radius: 2em;
@@ -2241,7 +2271,7 @@ color: #f1edee;
   margin: 1em;
   color: #cecece;
   text-decoration: none;
-  font-size: 3vmax;
+  font-size: 3.5vmax;
 }
 
 .footer-links a:hover {

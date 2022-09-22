@@ -5,8 +5,6 @@ require("dotenv").config({ path: path.join(__dirname, "..", ".env") });
 const express = require("express");
 const cors = require("cors");
 
-const enforce = require('express-sslify');
-
 const errorHandler = require("./errors/errorHandler");
 const notFound = require("./errors/notFound");
 //import routers TO DO****************
@@ -19,8 +17,7 @@ const promptsRouter = require("./Prompts/prompts.router");
 
 const app = express();
 
-app.use(enforce.HTTPS());
-// app.use(cors());
+app.use(cors());
 app.use(express.json());
 
 app.use("/users", usersRouter);

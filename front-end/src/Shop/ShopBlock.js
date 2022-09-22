@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import StarBanner from "../components/StarBanner";
 const logo = require("../assets/img/GYS_logo.jpg");
 
 export default function ShopBlock({ prompts = [] }) {
   // console.log(prompts);
+
+  const navigate = useNavigate();
 
   const shirtPrompts = prompts.filter((prompt) =>
     prompt.section_name.includes("shirt-info")
@@ -74,19 +77,21 @@ export default function ShopBlock({ prompts = [] }) {
                     />
                     <span className="shirt-text">
                       <h3>{shirt?.section_title}</h3>
+                      {/* add shopify link on navigate callback */}
                       <button
                         className="btn shirt-detail-btn"
-                        onClick={() => handleShow(idx)}
+                        onClick={()=> navigate("/")}
                       >
+                        
                         More details
                       </button>
-                      {shirtDetails === idx && showDetails ? (
+                      {/* {shirtDetails === idx && showDetails ? (
                         <>
                           <h3>{shirt?.section_title}</h3>
                           <h5>{shirt?.section_text}</h5>
                           <button className="btn shirt-detail-btn"><a href={shirt?.section_link}>Button</a></button>
                         </>
-                      ) : null}
+                      ) : null} */}
                     </span>
                 </Col>
               );

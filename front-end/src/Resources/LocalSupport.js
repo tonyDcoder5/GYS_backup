@@ -132,14 +132,14 @@ export default function LocalSupport({ contacts = [] }) {
                 key={idx}
                 className="contact-line contact-line-counseling"
               >
-                <div className="contact-brand">
+                <div className="contact-brand col">
                   <h4>{contact.contact_org_name}</h4>
                   <img
                     key={contact.contact_id}
                     src={logos[idx]}
                   />
                 </div>
-                <div className="contact-info">
+                <div className="contact-info col">
                 <button  className="btn local-support-detail-btn"
                         onClick={() => handleShow(idx)} >
                           Show Details
