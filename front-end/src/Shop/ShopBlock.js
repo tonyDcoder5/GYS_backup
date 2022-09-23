@@ -80,10 +80,10 @@ export default function ShopBlock({ prompts = [] }) {
                       {/* add shopify link on navigate callback */}
                       <button
                         className="btn shirt-detail-btn"
-                        onClick={()=> URL("www.golfyankeesix.myshopify.com/")}
                       >
-                        
+                        <a target="_blank" href="https://golfyankeesix.myshopify.com/">
                         More details
+                        </a>
                       </button>
                       {/* {shirtDetails === idx && showDetails ? (
                         <>
