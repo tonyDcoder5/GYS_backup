@@ -80,7 +80,7 @@ export default function ShopBlock({ prompts = [] }) {
                       {/* add shopify link on navigate callback */}
                       <button
                         className="btn shirt-detail-btn"
-                        onClick={()=> navigate("/")}
+                        onClick={()=> URL("www.golfyankeesix.myshopify.com/")}
                       >
                         
                         More details
