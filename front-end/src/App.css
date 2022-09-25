@@ -648,9 +648,6 @@ nav.navbar.scrolled .nav-links {
   border-radius: .5em;
 }
 
-.roadmap-block div img:hover {
-  transform: scale(1.5);
-}
 
 .roadmap-block p {
   font-size: 3.5vmax;
@@ -1366,10 +1363,6 @@ color: #f1edee;
   width: 35vmax;
 }
 
-.downloadables-block img:hover {
-  transform: scale(3);
-}
-
 .resource-btn-group {
   display: flex;
   flex-direction: column;
@@ -1820,10 +1813,6 @@ color: #f1edee;
   line-height: 2em;
 }
 
-.agenda-block img:hover {
-  transform: scale(2);
-}
-
 .agenda-block .col a {
   color: #036;
 }
@@ -1913,9 +1902,6 @@ color: #f1edee;
 }
 
 
-.shop-banner img:hover {
-  transform: scale(2);
-}
 .shop-layout {
   margin: 1em;
 }
