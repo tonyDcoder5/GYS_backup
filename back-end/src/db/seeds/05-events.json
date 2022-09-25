@@ -1,40 +1,19 @@
 [
     {
-        "event_name": "Test Event Name",
-        "event_date": "2022-09-01",
-        "event_title": "Test Event Title",
-        "event_text": "Text Event Text",
+        "event_name": "Trustco Bank Run for Freedom",
+        "event_date": "2022-11-13",
+        "event_title": "The Trustco Bank Veteran & Active Duty Run For Freedom 5K",
+        "event_text": "The Trustco Bank Veteran & Active Duty Run for Freedom 5k will celebrate our commitment to supporting our military! ",
         "event_subtext": "Test Event Subtext",
-        "event_image": "",
+        "event_image": "https://scontent.fapa1-1.fna.fbcdn.net/v/t39.30808-6/307700233_1936129539914278_258839034729552878_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=340051&_nc_ohc=3mvN2jaY5CMAX-jS6ce&_nc_ht=scontent.fapa1-1.fna&oh=00_AT-H6PhdBZAnrsD2VNloqeL1Iw4EluxYlb8-TviMY1cLhw&oe=6334E4C0",
         "event_video": "",
-        "event_link": ""
+        "event_link": "https://fb.me/e/297UGeNyw"
     },
     {
-        "event_name": "Test Event Name 2",
-        "event_title": "Test Event Title 2",
-        "event_text": "Text Event Text 2",
-        "event_subtext": "Test Event Subtext 2",
-        "event_date": "2022-09-23" 
-    },
-    {
-        "event_name": "Test Event Name 3",
-        "event_title": "Test Event Title 3",
-        "event_text": "Text Event Text 3",
-        "event_subtext": "Test Event Subtext 3",
-        "event_date": "2022-09-23" 
-    },
-    {
-        "event_name": "Test Event Name 4",
-        "event_title": "Test Event Title 4",
-        "event_text": "Text Event Text 4",
-        "event_subtext": "Test Event Subtext 4",
-        "event_date": "2022-09-23" 
-    },
-    {
-        "event_name": "Sample Event name",
-        "event_date": "2022-09-05",
-        "event_title":"Sample event title",
-        "event_text": "sample event text",
+        "event_name": "COMING SOON",
+        "event_date": "2022-12-31",
+        "event_title":"COMING SOON",
+        "event_text": "Check out our social media for more info!",
         "event_subtext": "sample event subtext",
         "event_image": "",
         "event_video": "",

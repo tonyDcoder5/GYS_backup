@@ -1824,6 +1824,19 @@ color: #f1edee;
   transform: scale(2);
 }
 
+.agenda-block .col a {
+  color: #036;
+}
+
+.agenda-block .col a:hover {
+  color: #5d737d;
+  box-shadow: 0em 0em .5em #f1edee;
+}
+
+
+.agenda-block .col a:active {
+  color: #5d737d;
+}
 /* SHOP PAGE LAYOUT */
 .shop-banner {
   display: flex;

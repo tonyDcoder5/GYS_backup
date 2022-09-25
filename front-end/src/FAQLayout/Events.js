@@ -29,7 +29,7 @@ export default function Events() {
         <p>Today: {date}</p>
         <StarBanner />
         <div className="events-block">
-          <div className="agenda-block">
+          {/* <div className="agenda-block">
           <div className="col">
               <img src={require("../assets/img/GYS_logo.jpg")} width="40%" alt="logo-placeholder" />
               <h5>DATE: TBD</h5>
@@ -38,23 +38,23 @@ export default function Events() {
               <h4>COMING SOON</h4>
               <p>Check out our social media for more info!</p>
               </div>
-          </div>
+          </div> */}
           
-          {/* {events.length > 0 ? events.map((event, idx) => (
+          {events.length > 0 ? events.map((event, idx) => (
             <div className="agenda-block" key={event.event_id}>
               <div className="col m-2">
               <img src={require("../assets/img/GYS_logo.jpg")} width="40%" alt={event.event_title} />
               <h5>{formatAsDate(event.event_date)}</h5>
               </div>
               <div className="col">
-              <h4>{event.event_title}</h4>
+              <h4><a target="_blank" href={event.event_link}>{event.event_title}</a></h4>
               <p>{event.event_text}</p>
               </div>              
             </div>
           )) : 
           <div className="agenda-block">
           <h3>Loading...</h3></div>
-          } */}
+          }
          
         </div>
         <h4 className="mt-3">
