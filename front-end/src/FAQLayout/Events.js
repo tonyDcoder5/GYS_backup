@@ -44,7 +44,7 @@ export default function Events() {
             <div className="agenda-block" key={event.event_id}>
               <div className="col m-2">
               <img src={require("../assets/img/GYS_logo.jpg")} width="40%" alt={event.event_title} />
-              <h5>{formatAsDate(event.event_date)}</h5>
+              <h5>{formatAsDate(event.event_date) || "TBD"}</h5>
               </div>
               <div className="col">
               <h4><a target="_blank" href={event.event_link}>{event.event_title}</a></h4>

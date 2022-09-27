@@ -21,13 +21,13 @@ export default function ShopBlock({ prompts = [] }) {
     prompt.section_name.includes("supplier")
   );
 
-  let blueLogoShirts = [ "../assets/img/shirts/gys-shirt-model-blue-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"];
+  // let blueLogoShirts = [ "../assets/img/shirts/gys-shirt-model-blue-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"];
 
-  let blueStoryShirts = ["../assets/img/shirts/gys-story-shirt-blue.jpeg", "../assets/img/shirts/gys-story-shirt-blue-front.jpeg", "../assets/img/shirts/gys-story-shirt-blue-back.jpeg"];
+  // let blueStoryShirts = ["../assets/img/shirts/gys-story-shirt-blue.jpeg", "../assets/img/shirts/gys-story-shirt-blue-front.jpeg", "../assets/img/shirts/gys-story-shirt-blue-back.jpeg"];
 
-  let grayLogoShirts = ["../assets/img/shirts/gys-shirt-model-gray-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"];
+  // let grayLogoShirts = ["../assets/img/shirts/gys-shirt-model-gray-logo-front.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo-back.jpeg", "../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"];
 
-  let grayStoryShirts = ["../assets/img/shirts/gys-story-shirt-gray.jpeg", "../assets/img/shirts/gys-story-shirt-gray-front.jpeg", "../assets/img/shirts/gys-story-shirt-gray-back.jpeg"];
+  // let grayStoryShirts = ["../assets/img/shirts/gys-story-shirt-gray.jpeg", "../assets/img/shirts/gys-story-shirt-gray-front.jpeg", "../assets/img/shirts/gys-story-shirt-gray-back.jpeg"];
 
   let shirtPics = [require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg")];
 
