@@ -1801,7 +1801,7 @@ color: #f1edee;
   justify-content: space-evenly;
   align-items: center;
   border: 0.25em solid #071013;
-  padding: 3em;
+  padding: 1em;
   width: 100%;
   margin: 1em;
   color: #071013;
@@ -1826,6 +1826,14 @@ color: #f1edee;
 .agenda-block .col a:active {
   color: #5d737d;
 }
+
+@media screen and (max-width: 600px) {
+  .agenda-block{
+    flex-direction: column;
+  }
+}
+
+
 /* SHOP PAGE LAYOUT */
 .shop-banner {
   display: flex;
