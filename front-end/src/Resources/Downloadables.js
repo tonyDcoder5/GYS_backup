@@ -50,7 +50,6 @@ export default function Downloadables() {
           className="download-img m-3"
           src={download.icon}
           alt={download.title}
-          width={download.width}
           onClick={() => {
             window.open(download.url);
           }}

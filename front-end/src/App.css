@@ -1344,9 +1344,9 @@ color: #f1edee;
   align-items: center;
   background-color: #cecece;
   border-radius: 0.25em;
-  padding: 2em;
-  margin: 1em;
-  width: 100%;
+  padding: .5em;
+  margin: .5em;
+  width: auto;
 }
 
 .download h3 {
@@ -1359,8 +1359,8 @@ color: #f1edee;
   font-size: 3vmax;
 }
 
-.downloadables-block img {
-  width: 35vmax;
+.download .download-img{
+  width: 100%;
 }
 
 .resource-btn-group {
