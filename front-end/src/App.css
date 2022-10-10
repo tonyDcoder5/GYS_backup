@@ -1204,6 +1204,7 @@ nav.navbar.scrolled .nav-links {
 @media screen and (max-width: 600px) {
   .contact-line-counseling {
     flex-direction: column;
+    width: 100%;
   }
   .local-hotlines .contact-group *{
     font-size: 3vmax;
@@ -1244,7 +1245,6 @@ color: #f1edee;
 .local-hotlines .contact-line {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 .local-hotlines .contact-line div {
