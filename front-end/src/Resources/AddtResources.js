@@ -52,10 +52,10 @@ const handleShow = (idx) => {
                 key={idx}
                 className="contact-line contact-line-counseling"
               >
-                <div className="contact-brand col">
+                <div className="contact-brand">
                   <h4>{resource.resource_title}</h4>
                 </div>
-                <div className="contact-info col">
+                <div className="contact-info">
                 <img
                     key={resource.resource_subtext}
                     src={resource.resource_media || null}

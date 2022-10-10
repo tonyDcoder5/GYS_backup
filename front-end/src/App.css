@@ -1259,6 +1259,10 @@ color: #f1edee;
   .local-hotlines .contact-brand {
     text-align: center;
   }
+
+.local-hotlines .contact-line div {
+  width: 100%;
+}
 }
 
 .local-hotlines .contact-info {
