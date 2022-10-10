@@ -108,7 +108,6 @@ h5 {
 * p {
   font-size: 2vmax;
   line-height: 1em;
-  padding: 1em;
   font-weight: 500;
 }
 
@@ -306,7 +305,7 @@ nav.navbar.scrolled .nav-links {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 1.5em 0em 1em 0em;
+  margin: 1.5em 0em 3em 0em;  
 }
 
 @media screen and (max-width: 450px) {
@@ -1965,7 +1964,6 @@ color: #f1edee;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 100%;
   padding: .5em;
   color: #071013;
   background-color: #036;
@@ -1976,12 +1974,12 @@ color: #f1edee;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-items: center;
   box-shadow: 0 0 .5em #071013;
   border-radius: 1em;
-  width: 100%;
   text-align: center;
+  width: 100%;
   padding: 1em 0.25em 1em 0.25em;
-
   background-color: #cecece;
 }
 
@@ -2003,16 +2001,15 @@ color: #f1edee;
   justify-content: center;
   align-items: center;
   justify-items: center;
-  line-height: 2em;
+  line-height: 1em;
   text-align: center;
   color: #071013;
 }
 
 .shop-row img {
   box-shadow: 0 0 0.2em #071013;
-  width: fit-content;
   margin: 1em;
-  width: 40vmax;
+  width: 20vmax;
 }
 
 .supplier-logos {
@@ -2020,15 +2017,10 @@ color: #f1edee;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  width: 80%;
 }
 
-.shop-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: .5em;
+.shop-text{
+  
 }
 
 .shop-text h4 {
@@ -2037,7 +2029,7 @@ color: #f1edee;
 
 .shop-text p {
   font-size: 3vmax;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 .shop-text button {
@@ -2117,7 +2109,7 @@ color: #f1edee;
 }
 
 .shirt-content img {
-  width: 50%;
+  width: 30%;
   margin: 1em;
   border-radius: 0.25em;
 }
@@ -2258,8 +2250,7 @@ color: #f1edee;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2em;
-  margin-top: 1em;
+  padding: 1em;
   text-align: center;
   background-color: #036;
   border-top: #071013 solid 0.25em;
@@ -2273,11 +2264,16 @@ color: #f1edee;
   align-self: center;
 }
 
+@media screen and (max-width: 400px) {
+  .footer .footer-nav{
+    flex-direction: column;
+  }
+}
+
 .footer-nav .footer-links {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: auto;
 }
 
 .footer-links a {
@@ -2302,7 +2298,6 @@ color: #f1edee;
   flex-direction: column;
   justify-content: center;
   align-self: center;
-
   margin: 2vmax 3.5vmax 2vmax 3.5vmax;
 }
 

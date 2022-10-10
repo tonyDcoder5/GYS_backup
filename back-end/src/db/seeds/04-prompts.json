@@ -281,6 +281,28 @@
     },
     {
         "user_id": 1,
+        "section_name": "shop-shirt-info-5",
+        "section_title": "Story Shirt - UF",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "story-shirt-gator",
+        "section_image": "../assets/img/shirts/gys-gator-shirt-standard.jpeg",
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
+        "section_name": "shop-shirt-info-6",
+        "section_title": "Story Shirt - UCF",
+        "section_subtitle": null,
+        "section_text": "Size info chart, materials, and care information",
+        "section_subtext": "story-shirt-ucf",
+        "section_image": "../assets/img/shirts/gys-ucf-shirt-standard.jpeg",
+        "section_video": null,
+        "section_link": "#"
+    },
+    {
+        "user_id": 1,
         "section_name": "shop-shirt-purchase-prompt",
         "section_title": "Available for preorder/purchase soon",
         "section_subtitle": null,
@@ -295,7 +317,7 @@
         "section_name": "shop-shirt-supplier-prompt",
         "section_title": "Bayside America Tees",
         "section_subtitle": "An American company helping support the American people",
-        "section_text": "We only use 100% American manufactured and designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee - at https://usabayside.com/. Our shirts are printed by Breaking Free Industries https://breakingfreeindustries.com/ in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
+        "section_text": "We only use 100% American manufactured and designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee. Our shirts are printed by Breaking Free Industries in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
         "section_subtext": "shirt-purchase-prompt",
         "section_image": ["../assets/img/logos/Breaking_Free_Apparel_logo.png", "../assets/img/logos/Breaking_Free_Apparel_logo.png"],
         "section_video": null,

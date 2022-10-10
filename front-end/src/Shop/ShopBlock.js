@@ -29,7 +29,7 @@ export default function ShopBlock({ prompts = [] }) {
 
   // let grayStoryShirts = ["../assets/img/shirts/gys-story-shirt-gray.jpeg", "../assets/img/shirts/gys-story-shirt-gray-front.jpeg", "../assets/img/shirts/gys-story-shirt-gray-back.jpeg"];
 
-  let shirtPics = [require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg")];
+  let shirtPics = [require("../assets/img/shirts/gys-shirt-model-gray-logo.jpeg"), require("../assets/img/shirts/gys-shirt-model-blue-logo.jpeg"), require("../assets/img/shirts/gys-story-shirt-blue.jpeg"), require("../assets/img/shirts/gys-story-shirt-gray.jpeg"), require("../assets/img/shirts/gys-gator-shirt-standard.jpeg"), require("../assets/img/shirts/gys-ucf-shirt-standard.png")];
 
   const [showDetails, setShowDetails] = useState(false);
   const [shirtDetails, setShirtDetails] = useState(null);
@@ -98,13 +98,14 @@ export default function ShopBlock({ prompts = [] }) {
             })}
       </Row>
       <StarBanner />
-      <div className="shop-bx">
+      <Row className="shop-bx">
         <h3>
           DESIGNS BY Breaking Free Apparel Co.
         </h3>
         <h4>Shirts By Bayside Amercian</h4>
-        <div className="shop-row">
-          <section className="supplier-logos">
+        <h4>{supplierPrompts[0]?.section_subtitle}</h4>
+        <Row className="shop-row">
+          <div className="supplier-logos">
              <img
               src={require("../assets/img/logos/Breaking_Free_Apparel_logo.png")}
               alt="headshot"
@@ -114,18 +115,17 @@ export default function ShopBlock({ prompts = [] }) {
               alt="headshot"
             />
            
-          </section>
-          <section className="shop-text">
-            <h4>{supplierPrompts[0]?.section_subtitle}</h4>
+          </div>
+          <div className="shop-text">
             <p>{supplierPrompts[0]?.section_text}</p>
             <button>
               <a href={"https://breakingfreeindustries.com/"} target="_blank">
                 Website
               </a>
             </button>
-          </section>
-        </div>
-      </div>
+          </div>
+        </Row>
+      </Row>
     </div>
   );
 }
