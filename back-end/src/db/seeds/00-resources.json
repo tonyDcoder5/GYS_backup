@@ -12,5 +12,33 @@
 		"resource_description": "Easy to read pamphlet with helpful information and tips to know about Veteran's mental health in FL",
         "resource_url":"https://www.canva.com/design/DAFLL3Z_3eI/DSCmDL-OGBxRK63EPnBPxA/view?utm_content=DAFLL3Z_3eI&utm_campaign=designshare&utm_medium=link&utm_source=viewer",
 		"resource_media": "../assets/img/gys-pamphlet.png"
+	},
+	{
+		"resource_title": "Military Spouse Career Advancement Accounts (MyCAA)",
+		"resource_subtext": "add-resources-1",
+		"resource_description": "Provides up to $4,000 (over 2 years) of Financial Assistance for military spouses who are pursuing degree programs, licenses or credentials leading to employment in portable career fields.",
+        "resource_url":"https://mycaa.militaryonesource.mil/mycaa/",
+		"resource_media": "https://mycaa.militaryonesource.mil/mycaa/assets/images/mos-seco-logo3.png"
+	},
+	{
+		"resource_title": "Military Spouse Employment Partnership (MSEP)",
+		"resource_subtext": "add-resources-2",
+		"resource_description": "Connects military spouses with hundreds of partner employers who have committed to recruit, hire, promote and retain military spouses.",
+        "resource_url":"https://msepjobs.militaryonesource.mil/msep/",
+		"resource_media": "https://msepjobs.militaryonesource.mil/msep/assets/images/mos-msep-logo.png"
+	},
+	{
+		"resource_title": "Military Onesource ",
+		"resource_subtext": "add-resources-3",
+		"resource_description": "24/7 gateway to trusted information, resources and confidential help. When MilLife happens, it’s your “first line of support” — giving service members and military families tools to stay well and thrive.",
+        "resource_url":"https://www.militaryonesource.mil/",
+		"resource_media": "https://www.militaryonesource.mil/wp-content/themes/mos-core/assets/images/logo-militaryonesource.png"
+	},
+	{
+		"resource_title": "List of Military Scholarships for Members and Family",
+		"resource_subtext": "add-resources-4",
+		"resource_description": "When it comes to other scholarship programs and benefits besides what the Government offers, there is so much more. Here is a link of all the benefits and opportunities that are offered to Veterans and Family Members through different companies. I think this is an excellent site Vets can look at for information.",
+        "resource_url":"https://usveteransmagazine.com/list-of-military-scholarships-for-service-members-spouses-and-dependents/",
+		"resource_media": "https://usveteransmagazine.com/wp-content/themes/usveterans/images/USVeterans.png"
 	}
 ]

@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import StarBanner from "../components/StarBanner";
+import AddtResources from "./AddtResources";
 
 export default function LocalSupport({ contacts = [] }) {
-  console.log(contacts);
+  // console.log(contacts);
 
   const [showDetails, setShowDetails] = useState(false);
   const [supportDetails, setSupportDetails] = useState(null);
@@ -15,7 +16,7 @@ export default function LocalSupport({ contacts = [] }) {
     (contact) => contact.contact_level === "local"
   );
 
-  console.log(localCounseling);
+  // console.log(localCounseling);
 
   const localHotlines = [
     {
@@ -99,11 +100,12 @@ export default function LocalSupport({ contacts = [] }) {
   // };
 
   return (
+    <>
     <div className="local-support-block">      
       <section className="local-hotlines">
         <h3>Local Support Hotlines</h3>
         <StarBanner />
-        <div className="contact-lislpist">
+        <div className="contact-list">
           <div className="contact-group">
             {localHotlines.map((contact, idx) => (
               <div
@@ -157,5 +159,7 @@ export default function LocalSupport({ contacts = [] }) {
         </div>
       </section>
     </div>
+    <AddtResources />
+    </>
   );
 }

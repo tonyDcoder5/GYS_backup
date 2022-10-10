@@ -1183,9 +1183,8 @@ nav.navbar.scrolled .nav-links {
 }
 
 .contact-line img {
-  width: 20vmax;
+  width: 30vmax;
   border-radius: 10em;
-  box-shadow: 0em 0em 0.75em #071013;
 }
 
 .contact-line {
@@ -1279,6 +1278,8 @@ color: #f1edee;
   width: fit-content;
   padding-bottom: 0.25em;
 }
+
+
 
 /* DOWNLOADS COMPONENT STYLES */
 .downloads{

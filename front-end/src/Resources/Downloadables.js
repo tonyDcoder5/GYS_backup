@@ -6,20 +6,20 @@ export default function Downloadables() {
   const [downloads, setDownloads] = useState(null);
   const [downloadsError, setDownloadsError] = useState(null);
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    const fetchDownloads = async () => {
-      try {
-        const abortController = new AbortController();
-        const response = await listResources(abortController.signal);
-        setDownloads(response);
-      } catch (error) {
-        setDownloadsError(error);
-      }
-    };
+  //   const fetchDownloads = async () => {
+  //     try {
+  //       const abortController = new AbortController();
+  //       const response = await listResources(abortController.signal);
+  //       setDownloads(response);
+  //     } catch (error) {
+  //       setDownloadsError(error);
+  //     }
+  //   };
 
-    fetchDownloads();
-  }, []);
+  //   fetchDownloads();
+  // }, []);
 
   // console.log(downloads);
   
