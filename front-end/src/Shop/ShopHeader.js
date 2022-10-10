@@ -2,7 +2,7 @@ import React from "react";
 import StarBanner from "../components/StarBanner";
 
 export default function ShopHeader({ prompts = [] }) {
-  console.log(prompts);
+  // console.log(prompts);
 
   return (
     <div className="shop-header">

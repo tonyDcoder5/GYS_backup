@@ -5,7 +5,7 @@ import { formatAsDate } from "../utils/api";
 
 export default function FAQs({ data = [] }) {
   // data holds FAQs page content
-  console.log(data);
+  // console.log(data);
 
   let faqs = data.filter((post)=> post.post_subtext.includes("faq-post"));
 

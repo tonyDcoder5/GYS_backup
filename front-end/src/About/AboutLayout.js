@@ -12,7 +12,7 @@ export default function AboutLayout({prompts=[]}) {
 
   const supportPrompts = prompts.filter((prompt)=> prompt.section_name.includes("support"));
 
-  console.log(aboutUsPrompts, valuesPrompts);
+  // console.log(aboutUsPrompts, valuesPrompts);
 
   return (
     <div className="about">

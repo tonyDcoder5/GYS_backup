@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import StarBanner from "../components/StarBanner";
 
 export default function AboutSupport({ prompts = [] }) {
-  console.log(prompts);
+  // console.log(prompts);
   // store in prompts from database here in desired format or default to database columns
   const promptsPage = prompts?.filter((prompt)=> prompt.section_name.includes("support-card"));
 
-  console.log(promptsPage);
+  // console.log(promptsPage);
 
 
   return (

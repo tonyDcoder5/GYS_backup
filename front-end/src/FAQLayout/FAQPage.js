@@ -75,7 +75,7 @@ export default function FAQPage() {
     },
   ];
 
-  console.log(faqs);
+  // console.log(faqs);
 
   return (
     <div className="faq">
