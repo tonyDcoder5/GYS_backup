@@ -23,6 +23,7 @@ export default function Events() {
 
 
 
+
   return (
     <div className="events">
         <h4>Upcoming Events:</h4>
@@ -53,8 +54,7 @@ export default function Events() {
             </div>
           )) : 
           <div className="agenda-block">
-          <h3>Loading...</h3></div>
-          }
+          <h3>Loading...</h3></div>}
          
         </div>
         <h4 className="mt-3">
