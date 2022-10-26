@@ -1,7 +1,7 @@
 [
     {
         "event_name": "Trustco Bank Run for Freedom",
-        "event_date": "2022-11-13",
+        "event_date": "2022-11-14",
         "event_title": "The Trustco Bank Veteran & Active Duty Run For Freedom 5K",
         "event_text": "The Trustco Bank Veteran & Active Duty Run for Freedom 5k will celebrate our commitment to supporting our military! ",
         "event_subtext": "Test Event Subtext",
@@ -11,13 +11,23 @@
     },
     {
         "event_name": "Saluting the Men and Women who defend our freedom",
-        "event_date": "2022-11-12",
+        "event_date": "2022-11-13",
         "event_title":"Saluting the Men and Women who defend our freedom",
         "event_text": "Check out our poster for more info!",
         "event_subtext": "va-event-2",
         "event_image": "",
         "event_video": "",
         "event_link": "https://drive.google.com/file/d/1imZA4UwGZq4biR0T5ItaSdiqrM9Vry9U/view?usp=sharing"
+    },
+    {
+        "event_name": "Rocking it at Rockpit Brewing",
+        "event_date": "2022-11-12",
+        "event_title":"Rocking it at Rockpit Brewing",
+        "event_text": "Check out our FB page for more info!",
+        "event_subtext": "va-event-3",
+        "event_image": "",
+        "event_video": "",
+        "event_link": "https://www.facebook.com/golfyankeesix/"
     },
     {
         "event_name": "COMING SOON",
