@@ -317,10 +317,10 @@
         "section_name": "shop-shirt-supplier-prompt",
         "section_title": "Bayside America Tees",
         "section_subtitle": "An American company helping support the American people",
-        "section_text": "We only use 100% American manufactured and designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee. Our shirts are printed by Breaking Free Industries in California. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
+        "section_text": "We only use 100% American manufactured and designed products with US cotton. Some other companies use US cotton, but are made elsewhere. We are committed to only using fully American made products. We use Bayside - The American Made Tee. About 3% of garments in the US are American made. This makes our American made products more expensive, but we stand behind our product choices by keeping everything we do locally.",
         "section_subtext": "shirt-purchase-prompt",
-        "section_image": ["../assets/img/logos/Breaking_Free_Apparel_logo.png", "../assets/img/logos/Breaking_Free_Apparel_logo.png"],
+        "section_image": "../assets/img/logos/Breaking_Free_Apparel_logo.png",
         "section_video": null,
-        "section_link": ["https://usabayside.com/", "https://breakingfreeindustries.com/"]
+        "section_link": "https://usabayside.com/"
     }
 ]

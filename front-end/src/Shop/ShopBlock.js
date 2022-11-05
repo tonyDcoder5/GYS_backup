@@ -99,17 +99,10 @@ export default function ShopBlock({ prompts = [] }) {
       </Row>
       <StarBanner />
       <Row className="shop-bx">
-        <h3>
-          DESIGNS BY Breaking Free Apparel Co.
-        </h3>
-        <h4>Shirts By Bayside Amercian</h4>
+        <h3>Shirts By Bayside Amercian</h3>
         <h4>{supplierPrompts[0]?.section_subtitle}</h4>
         <Row className="shop-row">
           <div className="supplier-logos">
-             <img
-              src={require("../assets/img/logos/Breaking_Free_Apparel_logo.png")}
-              alt="headshot"
-            />
             <img
               src={require("../assets/img/logos/bayside-logo.png")}
               alt="headshot"
