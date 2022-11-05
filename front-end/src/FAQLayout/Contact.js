@@ -47,6 +47,7 @@ export default function Contact() {
       }, 5000);
     }
   };
+  
   return (
     <div className="contact-form" id="contact">
       <div className="contact-bx">
